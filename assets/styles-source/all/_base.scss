@@ -1,0 +1,15 @@
+* {
+  outline: none !important;
+}
+body {
+	a {
+      &:hover,
+      &:link,
+      &:active,
+      &:focus {
+        text-decoration: none;
+        outline: none;
+        border: none;
+      }
+	}
+}
