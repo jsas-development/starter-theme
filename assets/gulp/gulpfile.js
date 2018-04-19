@@ -9,7 +9,8 @@ gulp.task('scripts', function () {
         [
         // jQuery
         //'../scripts-source/vendor/jquery/jquery-1.12.4.min.js',
-        //'../scripts-source/vendor/jquery/jquery.fancybox.min.js',
+        //'../scripts-source/vendor/jquery/jquery-3.3.1.min.js',
+        //'../scripts-source/vendor/jquery/jquery.fancybox.js',
         //'../scripts-source/vendor/parallax/parallax.min.js',
 
         // Slick
@@ -51,13 +52,16 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('../css/'));
 });
 
+
 gulp.task('images', function () {
     return gulp.src('../images/**/*.{jpg,png}')
     .pipe(smushit())
     .pipe(gulp.dest('../images'));
 });
 
-gulp.task('default', function () {
+gulp.task('watch', function () {
     gulp.watch('../styles-source/**/*', ['sass']);
     gulp.watch('../scripts-source/**/*.js', ['scripts']);
 });
+
+gulp.task('default', [ 'sass', 'scripts', 'watch' ]);
