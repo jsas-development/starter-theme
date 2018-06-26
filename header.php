@@ -45,5 +45,3 @@
     <![endif]-->
   </head>
   <body>
-    <header></header>
-    <footer></footer>
