@@ -8,6 +8,7 @@
     "gulp-concat": "*",
     "gulp-sass": "*",
     "gulp-smushit": "^1.2.0",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-uglifyjs": "^0.6.2"
   }
 }

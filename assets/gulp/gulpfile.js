@@ -2,15 +2,15 @@ var gulp    = require('gulp'),
     concat  = require('gulp-concat'),
     sass    = require('gulp-sass'),
     uglify  = require('gulp-uglifyjs'),
-    smushit = require('gulp-smushit');
+    smushit = require('gulp-smushit'),
+    sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('scripts', function () {
     return gulp.src(
         [
         // jQuery
         //'../scripts-source/vendor/jquery/jquery-1.12.4.min.js',
-        //'../scripts-source/vendor/jquery/jquery-3.3.1.min.js',
-        //'../scripts-source/vendor/jquery/jquery.fancybox.js',
+        //'../scripts-source/vendor/zepto/zepto.min.js',//
         //'../scripts-source/vendor/parallax/parallax.min.js',
 
         // Slick
@@ -42,16 +42,16 @@ gulp.task('scripts', function () {
 gulp.task('sass', function () {
     return gulp.src(
         [
-            '../styles-source/styles.all.min.scss',
+            '../styles-source/styles.min.scss',
             '../styles-source/styles.mobile.min.scss',
-            '../styles-source/styles.tablet.min.scss',
             '../styles-source/styles.desktop.min.scss'
         ])
+    .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'})
     .on('error', sass.logError))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('../css/'));
 });
-
 
 gulp.task('images', function () {
     return gulp.src('../images/**/*.{jpg,png}')
@@ -64,4 +64,4 @@ gulp.task('watch', function () {
     gulp.watch('../scripts-source/**/*.js', ['scripts']);
 });
 
-gulp.task('default', [ 'sass', 'scripts', 'watch' ]);
+gulp.task( 'default', ['sass', 'scripts', 'watch']);
