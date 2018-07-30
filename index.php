@@ -7,13 +7,19 @@
     include('header.php');
 
 ?>
-<div class="row">
-    <div class="col-xs-12
-                col-sm-8
-                col-md-6
-                col-lg-4">
-        <div class="box">Responsive</div>
+<div class="container grid">
+    <div class="panel header"></div>
+    <div class="panel main">
+        <div class="grid__cols">
+            <div class="panel__col"><p>1</p></div>
+            <div class="panel__col"><p>2</p></div>
+            <div class="panel__col"><p>3</p></div>
+            <div class="panel__col"><p>4</p></div>
+            <div class="panel__col last"><p>5</p></div>
+        </div>
     </div>
+    <div class="panel aside"></div>
+    <div class="panel footer"></div>
 </div>
 
 <?php 

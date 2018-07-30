@@ -9,9 +9,7 @@ gulp.task('scripts', function () {
     return gulp.src(
         [
         // jQuery
-        //'../scripts-source/vendor/jquery/jquery-1.12.4.min.js',
-        //'../scripts-source/vendor/zepto/zepto.min.js',//
-        //'../scripts-source/vendor/parallax/parallax.min.js',
+        '../scripts-source/vendor/jquery/jquery-1.12.4.min.js',
 
         // Slick
         //'../scripts-source/vendor/slick/slick.js',
@@ -29,6 +27,20 @@ gulp.task('scripts', function () {
         //'../scripts-source/vendor/bootstrap-3.3.7/scrollspy.js',
         //'../scripts-source/vendor/bootstrap-3.3.7/tab.js',
         //'../scripts-source/vendor/bootstrap-3.3.7/affix.js',
+
+        // Bootstrap 4.1.3
+        //'../scripts-source/vendor/bootstrap-3.3.7/index.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/alert.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/button.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/carousel.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/collapse.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/dropdown.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/modal.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/tooltip.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/popover.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/scrollspy.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/tab.js',
+        //'../scripts-source/vendor/bootstrap-3.3.7/util.js',
 
         // Custom
         '../scripts-source/config.js',
@@ -49,7 +61,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'})
     .on('error', sass.logError))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('../css/maps'))
     .pipe(gulp.dest('../css/'));
 });
 
