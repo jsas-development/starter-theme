@@ -1,3 +1,0 @@
-.no-padding{padding:0}.container{width:80vw;margin:auto}.grid{display:grid;grid-template-areas:"header header" "aside main" "footer footer";grid-template-columns:30% 70%}@media (max-width: 767px){.grid{grid-template-columns:1fr;grid-template-areas:"header" "aside" "main" "footer"}}.grid__cols{display:grid;grid-template-columns:repeat(5, 1fr)}.grid__cols .last{grid-column:5}.header{background-color:red;height:50px;grid-area:header}.main{background-color:green;height:480px;grid-area:main}.aside{background-color:blue;height:480px;grid-area:aside}.footer{background-color:black;height:180px;grid-area:footer}
-
-/*# sourceMappingURL=../css/maps/styles.min.css.map */
