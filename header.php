@@ -28,14 +28,11 @@
     <meta property="og:site_name" content="" />
     <meta property="og:locale" content="" />
 
-    <link rel="icon" href="" />
+    <link rel="icon" href="/" />
 
     <title><?= $title;?></title>
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="/assets/css/styles.min.css" media="all">
-    <link rel="stylesheet" href="/assets/css/styles.mobile.min.css" media="screen and (max-width: 767px)">
-    <link rel="stylesheet" href="/assets/css/styles.desktop.min.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="/assets/styles/styles.min.css" media="all">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

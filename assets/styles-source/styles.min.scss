@@ -1,7 +1,19 @@
+// Plugins
+	// Bootstrap
+	//@import "vendor/bootstrap-4.3.1/bootstrap";
+	//@import "vendor/bootstrap-4.3.1/bootstrap-grid";
+	//@import "vendor/bootstrap-4.3.1/bootstrap-reboot";
+
+	@import "vendor/slick-1.8.1/slick";
+	@import "vendor/slick-1.8.1/slick-theme";
+	@import "vendor/fancybox/jquery.fancybox";
+//
+
 @import "variables";
 @import "mixins";
-@import "classes";
+@import "iconfont";
 
-@import "grid";
-@import "header";
+// General
+@import "base";
 @import "footer";
+@import "header";
