@@ -1,0 +1,23 @@
+
+
+header {
+    background-color: $colorBackgroundDefault;
+    color: $colorWhite;
+    .header {
+        @include font-std(16px, $colorWhite, 300, $fontPrimary);
+        .icon {
+            font-size: 20px;
+            color: $colorWhite;
+        }
+        &--btn-search,&--input-search {
+            border: none;
+            background: none;
+            &::placeholder {
+                color: $colorWhite;
+            }
+        }
+    }
+    .btn-font-size {
+        border-radius: 1px;
+    }
+}

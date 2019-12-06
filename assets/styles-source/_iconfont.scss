@@ -5,11 +5,11 @@ iconfont Webfont
 @font-face {
  font-family: "iconfont";
 
- src: url('../fonts/iconfont.eot?1551370891243');
- src: url('../fonts/iconfont.eot?#iefix-1551370891243') format('embedded-opentype'),
-  url('../fonts/iconfont.woff2?1551370891243') format('woff2'),
-  url('../fonts/iconfont.woff?1551370891243') format('woff'),
-  url('../fonts/iconfont.ttf?1551370891243') format('truetype');
+ src: url('../fonts/iconfont.eot?1575673283233');
+ src: url('../fonts/iconfont.eot?#iefix-1575673283233') format('embedded-opentype'),
+  url('../fonts/iconfont.woff2?1575673283233') format('woff2'),
+  url('../fonts/iconfont.woff?1575673283233') format('woff'),
+  url('../fonts/iconfont.ttf?1575673283233') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -35,6 +35,14 @@ iconfont Webfont
 Glyphs list
 */
 
-.icon-elevador:before {
+.icon-facebook:before {
  content: '\ea01';
+}
+
+.icon-twitter:before {
+ content: '\ea02';
+}
+
+.icon-youtube:before {
+ content: '\ea03';
 }

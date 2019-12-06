@@ -27,8 +27,8 @@ function scripts() {
             //`${scriptsSourcePath}/vendor/slick-1.8.1/slick.js`,
 
             // Bootstrap
-            //`${scriptsSourcePath}/vendor/bootstrap-4.3.1/bootstrap.js`,
-            //`${scriptsSourcePath}/vendor/bootstrap-4.3.1/bootstrap.bundle.js`,
+            `${scriptsSourcePath}/vendor/bootstrap-4.3.1/bootstrap.js`,
+            `${scriptsSourcePath}/vendor/bootstrap-4.3.1/bootstrap.bundle.js`,
 
             `${scriptsSourcePath}/config.js`,
         ]
