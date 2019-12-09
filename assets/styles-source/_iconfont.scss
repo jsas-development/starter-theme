@@ -5,11 +5,11 @@ iconfont Webfont
 @font-face {
  font-family: "iconfont";
 
- src: url('../fonts/iconfont.eot?1575673283233');
- src: url('../fonts/iconfont.eot?#iefix-1575673283233') format('embedded-opentype'),
-  url('../fonts/iconfont.woff2?1575673283233') format('woff2'),
-  url('../fonts/iconfont.woff?1575673283233') format('woff'),
-  url('../fonts/iconfont.ttf?1575673283233') format('truetype');
+ src: url('../fonts/iconfont.eot?1575899712955');
+ src: url('../fonts/iconfont.eot?#iefix-1575899712955') format('embedded-opentype'),
+  url('../fonts/iconfont.woff2?1575899712955') format('woff2'),
+  url('../fonts/iconfont.woff?1575899712955') format('woff'),
+  url('../fonts/iconfont.ttf?1575899712955') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -43,6 +43,10 @@ Glyphs list
  content: '\ea02';
 }
 
-.icon-youtube:before {
+.icon-user:before {
  content: '\ea03';
+}
+
+.icon-youtube:before {
+ content: '\ea04';
 }
