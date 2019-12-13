@@ -23,8 +23,8 @@ function scripts() {
   return src(
         [
             `${scriptsSourcePath}/vendor/jquery/jquery-3.3.1.js`,
-            //`${scriptsSourcePath}/vendor/jquery/jquery.fancybox.js`,
-            //`${scriptsSourcePath}/vendor/slick-1.8.1/slick.js`,
+            `${scriptsSourcePath}/vendor/jquery/jquery.fancybox.js`,
+            `${scriptsSourcePath}/vendor/slick-1.8.1/slick.js`,
 
             // Bootstrap
             `${scriptsSourcePath}/vendor/bootstrap-4.3.1/bootstrap.js`,

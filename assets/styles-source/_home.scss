@@ -4,4 +4,284 @@
     background-image: url("../images/webdoor.jpg");
     background-size: cover;
     height: 472px;
+    &--menu {
+        padding: 30px 0;
+        a {
+            font-size: 15px;
+            padding: 8px;
+            font-weight: bold;
+        }
+    }
+    &--content {
+        height: 323px;
+    }
+    &--title {
+        @include font-std(40px, $colorWhite, 400, $fontSecond);
+        padding-top: 3em;
+    }
+    .icon-arrow-down {
+        padding-top: 25px;
+    }
+    &--box {
+        width: 367px;
+        height: 221px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $colorWhite;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: translateY(100px);
+        p {
+            @include font-std(28px, #0C4DA1, 400, $fontSecond);
+            padding: 5px;
+            text-align: center;
+            line-height: 34px;
+        }
+        
+    }
 }
+
+.next-events {
+    .tab-blue-default {
+        width: 168px;
+        margin: 70px 0 0;
+        height: 10px;
+        background: $colorBlueDefault;
+    }
+    &--title {
+        @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
+        padding: 63px 0;
+    }
+    &--main {
+        display: flex;
+        justify-content: center;
+        .card {
+            border: 0;
+            background: $colorBackgroundThumb;
+        }
+        img {
+            border-radius: 0;
+        }
+        hr {
+            width: 80%;
+            margin: 25px 0;
+            border: 0.5px solid #70707085;
+        }
+        .btn-default {
+            margin: 50px 0;
+            text-align: center;
+        }
+    }
+    &--box-date {
+        @include font-std(22px, $colorBackgroundDefault, 900, $fontPrimary);
+        text-align: center;
+        border-right: 2px solid $colorBackgroundDefault;
+        padding-right: 10px;
+    }
+    &--box-title {
+        @include font-std(22px, $colorBackgroundDefault, 400, $fontSecond);
+        padding-left: 10px;
+    }
+    &--box-item {
+        @include font-std(12px, #707070, 400, $fontPrimary);
+        padding: 0 5px;
+        i {
+            font-size: 20px;
+            color: $colorBackgroundDefault;
+            padding: 0 5px;
+        }
+    }
+    &--sidebar {
+        text-align: center;
+        &--container {
+            border: 0.5px solid $colorBackgroundThumb;
+        }
+        .tab-blue-default {
+            width: 100%;
+            margin: 0;
+        }
+        .next-course {
+            &--item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            &--date {
+                @include font-std(16px, #707070, 400, $fontPrimary);
+                padding-bottom: 12px;
+            }
+            &--title {
+                @include font-std(22px, $colorBackgroundDefault, 400, $fontSecond);
+            }
+            hr {
+                width: 60%;
+            }
+            .btn-default {
+                margin: 30px 0 19px;
+            }
+        }
+    }
+        
+}
+
+.latest-posts {
+    background-color: $colorBlueDefault;
+    text-align: center;
+    &--title {
+        @include font-std(40px, $colorWhite, 400, $fontSecond);
+        padding: 63px 0;
+    }
+    &--img {
+        position: relative;
+    }
+    &--img-opacity {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        text-align: left;
+        padding: 0 36px;
+        opacity: 0;
+        line-height: 1.3;   
+        background: rgba(0, 102, 140, 0.79);
+        width: 209px;
+        height: 301px;
+        left: 38px;
+        top: 15px;
+        &:hover {
+            opacity: 1;
+        }
+        .caption {
+            @include font-std(16px, $colorWhite, 400, $fontPrimary);
+            padding: 26px 0 40px;
+            line-height: 2;
+            b {
+                @include font-std(22px, $colorWhite, 400, $fontSecond);
+                line-height: 1;
+            }
+        }
+        .link {
+            @include font-std(14px, $colorWhite, 400, $fontSecond);
+            text-decoration: underline;
+        }
+    }
+    .btn-default {
+        text-align: center;
+        background-color: $colorWhite;
+        color: $colorBlueDefault;
+        margin: 30px 0 63px;
+    }
+}
+
+.latest-posts-twitter {
+    background-color: $colorWhite;
+    text-align: center;
+    &--title {
+        @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
+        padding: 63px 0;
+    }
+
+    &--card {
+        border: 1px solid $colorBackgroundThumb;
+        width: 367px;
+        height: 290px;
+        padding: 17px 60px;
+        a {
+            @include font-std(18px, #0EB0EF, 400, $fontPrimary);
+            text-decoration: underline;
+        }
+    }
+
+    &--user {
+        @include font-std(20px, #0EB0EF, 400, $fontPrimary);
+    }
+    &--text {
+        @include font-std(18px, #978585, 400, $fontPrimary);
+    }
+
+    &--days {
+        @include font-std(12px, #978585, 400, $fontPrimary);
+    }
+
+    .icon-twitter {
+        color: #0EB0EF;
+        font-size: 20px;
+    }
+    .btn-default {
+        text-align: center;
+        margin: 60px 0;
+    }
+
+}
+
+.videos {
+    background: rgb(235,235,235);
+    background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 72%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    &--title {
+        @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
+        padding: 63px 0;
+    }
+
+    .btn-default {
+        text-align: center;
+        margin: 60px 0;
+    }
+    .video-play {
+        position: relative;
+        padding: 0;
+    }
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(12, 77, 161, 0.68);
+        width: 100%;
+        height: 650px;
+        display: flex;
+        .icon-play {
+            font-size: 125px;
+            color: #fff;
+            margin: 0 40px;
+        }
+        span {
+            @include font-std(40px, $colorWhite, 400, $fontSecond);
+            margin: 0 10px;
+        }
+    }
+    .video-nav {
+        margin: 40px 0;
+    }
+}
+
+.blog {
+    background-color: $colorBackgroundDefault;
+    height: 597px;
+    width: 100%;
+    span {
+        @include font-std(18px, #6F9ED9, 400, $fontPrimary);
+    }
+    &--img {
+        background-image: url("../images/freud.jpg");
+        background-size: cover;
+        height: 597px;
+    }
+    &--container {
+        width: 100%;
+        height: 271px;
+        padding-left: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &--title {
+        @include font-std(40px, $colorWhite, 400, $fontSecond);
+        padding-bottom: 65px;
+    }
+    .btn-default {
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,12 @@
+footer {
+    background-color:#373737;
+    @include font-std(18px, $colorWhite, 400, $fontPrimary);
+    height: 296px;
+
+    li {
+        padding: 8px 0;
+    }
+    i {
+        padding: 0 10px;
+    }
+}
