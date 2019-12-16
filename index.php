@@ -62,85 +62,93 @@
         <div class="col-md-8 d-flex flex-wrap next-events--main">
             <div class="col-md-6">
               <div class="card mb-4">
-                <picture>
-                    <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
-                    <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
-                    <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
-                </picture>
-                <div class="card-body">
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-date">20<br>Nov</span>
-                        <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
-                    </div>
-                    <hr>
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
-                        <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
-                    </div>
-                </div>
+                  <a href="">
+                      <picture>
+                          <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
+                          <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
+                          <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
+                      </picture>
+                      <div class="card-body">
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-date">20<br>Nov</span>
+                              <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
+                          </div>
+                          <hr>
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
+                              <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
+                          </div>
+                      </div>
+                  </a>
               </div>
             </div>
             
             <div class="col-md-6">
               <div class="card mb-4">
-                <picture>
-                    <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
-                    <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
-                    <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
-                </picture>
-                <div class="card-body">
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-date">20<br>Nov</span>
-                        <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
-                    </div>
-                    <hr>
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
-                        <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
-                    </div>
-                </div>
+                  <a href="">
+                      <picture>
+                          <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
+                          <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
+                          <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
+                      </picture>
+                      <div class="card-body">
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-date">20<br>Nov</span>
+                              <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
+                          </div>
+                          <hr>
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
+                              <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
+                          </div>
+                      </div>
+                  </a>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="card mb-4">
-                <picture>
-                    <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
-                    <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
-                    <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
-                </picture>
-                <div class="card-body">
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-date">20<br>Nov</span>
-                        <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
-                    </div>
-                    <hr>
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
-                        <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
-                    </div>
-                </div>
+                  <a href="">
+                      <picture>
+                          <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
+                          <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
+                          <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
+                      </picture>
+                      <div class="card-body">
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-date">20<br>Nov</span>
+                              <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
+                          </div>
+                          <hr>
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
+                              <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
+                          </div>
+                      </div>
+                  </a>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="card mb-4">
-                <picture>
-                    <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
-                    <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
-                    <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
-                </picture>
-                <div class="card-body">
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-date">20<br>Nov</span>
-                        <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
-                    </div>
-                    <hr>
-                    <div class="row d-flex px-4">
-                        <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
-                        <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
-                    </div>
-                </div>
+                  <a href="">
+                      <picture>
+                          <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
+                          <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
+                          <img class="card-img-top" src="assets/images/thumbnail-example.jpg" alt="Logo Sbpsp">
+                      </picture>
+                      <div class="card-body">
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-date">20<br>Nov</span>
+                              <span class="next-events--box-title">Ciclo Cinema e<br>Psicanálise | Sem Amor</span>
+                          </div>
+                          <hr>
+                          <div class="row d-flex px-4">
+                              <span class="next-events--box-item"><i class="icon-time"></i>19 horas</span>
+                              <span class="next-events--box-item"><i class="icon-location"></i>Museu Imagem e Som (MIS)</span>
+                          </div>
+                      </div>
+                  </a>
               </div>
             </div>
             <a class="btn-default" href="/">

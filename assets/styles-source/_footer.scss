@@ -1,12 +1,57 @@
 footer {
     background-color:#373737;
-    @include font-std(18px, $colorWhite, 400, $fontPrimary);
-    height: 296px;
+    @include font-std(16px, $colorWhite, 300, $fontPrimary);
+
+    .footer-links {
+        padding: 40px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+        &--form {
+            width: 29%;
+            label {
+
+            }
+            input {
+                background-color: transparent;
+                border-radius: 0;
+                border: 1px solid #C4C4C4;
+                font-size: 13px;
+                padding: 23px 10px;
+                color: $colorWhite;
+                &::placeholder {
+                    color: rgba(196, 196, 196, 0.7);
+                }
+                &:focus {
+                    background-color: transparent;
+                    border-color: #C4C4C4;
+                    box-shadow: none;
+                    color: $colorWhite;
+                }
+            }
+            button {
+                background-color: #C4C4C4;
+                border-radius: 0;
+                border: 1px solid #C4C4C4;
+                padding: 10px 24px;
+            }
+            .form-email {
+                margin-top: 20px;
+            }
+        }
+    }
 
     li {
         padding: 8px 0;
     }
     i {
         padding: 0 10px;
+    }
+    a {
+        color:$colorWhite;
+    }
+
+    .footer-copyright {
+        padding: 40px 0;
+        font-size: 14px;
     }
 }

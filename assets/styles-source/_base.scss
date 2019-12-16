@@ -51,9 +51,13 @@ table {
     outline: none;
 }
 
-a:hover {
+a {
+    color: $colorBlack;
     text-decoration: none;
-    color: $colorWhite;
+    &:hover {
+        text-decoration: none;
+        color: $colorWhite;
+    }
 }
 
 @font-face {
