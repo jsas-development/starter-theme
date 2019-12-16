@@ -16,8 +16,111 @@ header {
                 color: $colorWhite;
             }
         }
+        &--menu {
+            background-color: $colorWhite;
+            padding: 30px 0;
+            a {
+                color: $colorBackgroundDefault;
+                font-size: 15px;
+                padding: 8px;
+                font-weight: bold;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .subnav {
+                position: absolute;
+                top: 47px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                a {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .psicanalistas-link {
+        color: $colorWhite;
     }
     .btn-font-size {
         border-radius: 1px;
+    }
+    
+    .psicanalistas {
+        display: none;
+        height: 250px;
+        background: $colorWhite;
+        top: 64px;
+        position: absolute;
+        z-index: 999999;
+        left: 0;
+        opacity: 0.8;
+        right: 0;
+        &--title {
+            @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
+            padding: 18px 0;
+        }
+        i {
+            @include font-std(38px, $colorBlack, 400, $fontSecond);
+            cursor: pointer;
+        }
+        input {
+            @include font-std(16px, $colorBlack, 400, $fontPrimary);
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            padding: 14px 0 14px 10px;
+            &::placeholder {
+                color:$colorBlack;
+            }
+            &:focus {
+                background-color: transparent;
+            }
+        }
+        .btn-default {
+            text-align: center;
+            margin: 0;
+            margin-left: 18px;
+        }
+    }
+
+    .search {
+        display: none;
+        background: $colorWhite;
+        top: 64px;
+        position: absolute;
+        z-index: 999999;
+        left: 0;
+        right: 0;
+        opacity: 0.8;
+        &--title {
+            @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
+            padding: 18px 0;
+        }
+        &--container {
+            height: 250px;
+            display: flex;
+            align-items: center;
+        }
+        i {
+            @include font-std(38px, #72787C, 400, $fontSecond);  
+            cursor: pointer;
+        }
+        input {
+            @include font-std(38px, #72787C, 400, $fontSecond);
+            border: none;
+            padding: 14px 0 14px 10px;
+            &::placeholder {
+                color: #72787C;
+            }
+            &:focus {
+                background-color: transparent;
+            }
+        }
+        .btn-default {
+            text-align: center;
+            margin: 0;
+            margin-left: 18px;
+        }
     }
 }

@@ -5,11 +5,11 @@ iconfont Webfont
 @font-face {
  font-family: "iconfont";
 
- src: url('../fonts/iconfont.eot?1576266227642');
- src: url('../fonts/iconfont.eot?#iefix-1576266227642') format('embedded-opentype'),
-  url('../fonts/iconfont.woff2?1576266227642') format('woff2'),
-  url('../fonts/iconfont.woff?1576266227642') format('woff'),
-  url('../fonts/iconfont.ttf?1576266227642') format('truetype');
+ src: url('../fonts/iconfont.eot?1576521242141');
+ src: url('../fonts/iconfont.eot?#iefix-1576521242141') format('embedded-opentype'),
+  url('../fonts/iconfont.woff2?1576521242141') format('woff2'),
+  url('../fonts/iconfont.woff?1576521242141') format('woff'),
+  url('../fonts/iconfont.ttf?1576521242141') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -39,30 +39,38 @@ Glyphs list
  content: '\ea01';
 }
 
-.icon-facebook:before {
+.icon-close-search:before {
  content: '\ea02';
 }
 
-.icon-location:before {
+.icon-facebook:before {
  content: '\ea03';
 }
 
-.icon-play:before {
+.icon-location:before {
  content: '\ea04';
 }
 
-.icon-time:before {
+.icon-play:before {
  content: '\ea05';
 }
 
-.icon-twitter:before {
+.icon-search:before {
  content: '\ea06';
 }
 
-.icon-user:before {
+.icon-time:before {
  content: '\ea07';
 }
 
-.icon-youtube:before {
+.icon-twitter:before {
  content: '\ea08';
+}
+
+.icon-user:before {
+ content: '\ea09';
+}
+
+.icon-youtube:before {
+ content: '\ea0a';
 }

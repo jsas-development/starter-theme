@@ -59,8 +59,10 @@
             </a>
           </div>
           <div class="col-md-6 d-flex justify-content-between align-items-center">
-            <p>Psicanalistas</p>
-            <a class="text-light d-flex align-items-md-center justify-content-md-center" href="#">
+            <a class="psicanalistas-link" href="#">
+              <p>Psicanalistas</p>
+            </a>
+            <a class="text-light d-flex align-items-md-center justify-content-md-center search-link" href="#">
               <img class="mx-2" src="assets/images/icon-search.png" alt="Ícone de busca">
               <p>Buscar</p>
             </a>
@@ -73,6 +75,83 @@
               <a class="btn btn-sm btn-outline-light text-light btn-font-size" href="#">A +</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header--menu">
+    <div class="container">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="logo-sbpsp col-md-2">
+          <picture>
+              <source srcset="assets/images/logo-blue.webp" type="image/webp">
+              <source srcset="assets/images/logo-blue.png" type="image/png"> 
+              <img src="assets/images/logo-blue.png" alt="Logo Sbpsp">
+          </picture>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex flex-column">
+            <nav class="nav align-items-center d-flex justify-content-start py-2">
+                <a class="btn-quem-somos" href="#">QUEM SOMOS</a>
+                <a class="btn-formacao" href="#">FORMAÇÃO</a>
+                <a class="btn-atividades" href="#">ATIVIDADES</a>
+                <a class="btn-estudos-e-pesquisas" href="#">ESTUDOS E PESQUISAS</a>
+                <a class="btn-atendimento-comunidade" href="#">ATENDIMENTO À COMUNIDADE</a>
+                <a class="btn-blog" href="#">BLOG</a>
+            </nav>
+            <nav id="btn-quem-somos" class="subnav py-2">
+                <a href="#">A Sociedade</a>
+                <a href="#">Corpo Diretivo</a>
+                <a href="#">Equipe</a>
+                <a href="#">Contato</a>
+            </nav>
+            <nav id="btn-formacao" class="subnav py-2">
+                <a href="#">teste 1</a>
+                <a href="#">teste 2</a>
+                <a href="#">Teste 3</a>
+                <a href="#">Contato</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="psicanalistas">
+    <div class="container">
+      <div class="d-flex flex-row justify-content-between align-items-center py-5">
+        <h3 class="psicanalistas--title">
+          Encontre psicanalistas membros e membros filiados
+        </h3>
+        <i class="icon-close-search close-psicanalistas"></i>
+      </div>
+      <div class="d-flex flex-row justify-content-around align-items-center">
+        <div class="col-2 input-group">
+          <input type="text" class="" placeholder="Nome" aria-label="Nome">
+        </div>
+        <div class="col-2 input-group">
+          <input type="text" class="" placeholder="Digite o seu CEP" aria-label="cep">
+        </div>
+        <div class="col-2 input-group">
+          <input type="text" class="" placeholder="Cidade" aria-label="cidade">
+        </div>
+        <div class="col-2 input-group">
+          <input type="text" class="" placeholder="Bairro" aria-label="bairro">
+        </div>
+        <a class="btn-default" href="/">buscar</a>
+      </div>
+    </div>
+  </div>
+  <div class="search">
+    <div class="search--container">
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between align-items-center">
+          <h3 class="psicanalistas--title d-flex">
+            <img class="mx-2" src="assets/images/icon-search-dark.png" alt="Ícone de busca">
+            <div class="col-2 input-group">
+              <input type="text" placeholder="O que você procura">
+            </div>
+          </h3>
+          <i class="icon-close-search close-search"></i>
         </div>
       </div>
     </div>

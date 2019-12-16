@@ -24,4 +24,46 @@ $( document ).ready(function() {
 		$('.slick-active div a').trigger("click");
 	});
 	
+	//Search Psicanalistas
+	$(".psicanalistas-link").click(function(){
+		$(".search").slideUp("fast");
+		if ($(".psicanalistas").is(":hidden")) {
+			$(".psicanalistas").slideDown("slow");
+		} else {
+			$(".psicanalistas").slideUp("fast");
+		}
+	});
+	$(".close-psicanalistas").click(function(){
+		$(".psicanalistas").slideUp("fast");
+	});
+
+	//Search Buscar
+	$(".search-link").click(function(){
+		$(".psicanalistas").slideUp("fast");
+		if ($(".search").is(":hidden")) {
+			$(".search").slideDown("slow");
+		} else {
+			$(".search").slideUp("fast");
+		}
+	});
+	$(".close-search").click(function(){
+		$(".search").slideUp("fast");
+	});
+
+	//Submenu
+	$(".nav a").click(function(){
+		$(".nav").css("border-bottom","none");
+		$(".subnav").fadeOut("fast");
+		var link = $(this).attr('class');
+		var seletor = "#" + link;
+		if ($(seletor).is(":hidden")) {
+			$(".nav").css("border-bottom","1px solid #C4C4C4")
+			setTimeout(function(){
+				$(seletor).fadeIn("fast");;
+			},300);
+		} else {
+			$(seletor).fadeOut("fast");
+			$(".nav").css("border-bottom","none");
+		}
+	});
 });

@@ -10,25 +10,6 @@
 
 <section class="webdoor">
     <div class="container">
-        <div class="webdoor--menu row flex-nowrap justify-content-between align-items-center">
-            <div class="logo-sbpsp col-md-2">
-                <picture>
-                    <source srcset="assets/images/logo.webp" type="image/webp">
-                    <source srcset="assets/images/logo.png" type="image/png"> 
-                    <img src="assets/images/logo.png" alt="Logo Sbpsp">
-                </picture>
-            </div>
-            <div class="col-md-9">
-                <nav class="nav align-items-center d-flex justify-content-end">
-                    <a class="text-white" href="#">QUEM SOMOS</a>
-                    <a class="text-white" href="#">FORMAÇÃO</a>
-                    <a class="text-white" href="#">ATIVIDADES</a>
-                    <a class="text-white" href="#">ESTUDOS E PESQUISAS</a>
-                    <a class="text-white" href="#">ATENDIMENTO À COMUNIDADE</a>
-                    <a class="text-white" href="#">BLOG</a>
-                </nav>
-            </div>
-        </div>
         <div class="webdoor--content row flex-nowrap justify-content-between">
             <div class="col-md-6 d-flex flex-column justify-content-center">
                 <h1 class="webdoor--title">
