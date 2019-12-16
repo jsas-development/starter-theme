@@ -58,9 +58,7 @@ $( document ).ready(function() {
 		var seletor = "#" + link;
 		if ($(seletor).is(":hidden")) {
 			$(".nav").css("border-bottom","1px solid #C4C4C4")
-			setTimeout(function(){
-				$(seletor).fadeIn("fast");;
-			},300);
+			$(seletor).fadeIn("fast");;
 		} else {
 			$(seletor).fadeOut("fast");
 			$(".nav").css("border-bottom","none");
