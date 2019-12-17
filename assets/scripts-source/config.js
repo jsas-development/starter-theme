@@ -24,7 +24,7 @@ $( document ).ready(function() {
 		$('.slick-active div a').trigger("click");
 	});
 	
-	//Search Psicanalistas
+	//Search Btn Psicanalistas
 	$(".psicanalistas-link").click(function(){
 		$(".search").slideUp("fast");
 		if ($(".psicanalistas").is(":hidden")) {
@@ -37,7 +37,7 @@ $( document ).ready(function() {
 		$(".psicanalistas").slideUp("fast");
 	});
 
-	//Search Buscar
+	//Search Btn Buscar
 	$(".search-link").click(function(){
 		$(".psicanalistas").slideUp("fast");
 		if ($(".search").is(":hidden")) {
@@ -64,4 +64,13 @@ $( document ).ready(function() {
 			$(".nav").css("border-bottom","none");
 		}
 	});
+
+	//Menu Mobile
+	$(".navbar-toggler").click(function(){
+		$(".menu-mobile").slideDown("fast");
+	});
+	$(".icon-close-menu").click(function(){
+		$(".menu-mobile").slideUp("fast");
+	});
+
 });

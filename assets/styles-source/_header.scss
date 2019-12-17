@@ -2,6 +2,14 @@
 
 header {
     background-color: $colorBackgroundDefault;
+    @include mobile {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
     color: $colorWhite;
     .header {
         @include font-std(16px, $colorWhite, 300, $fontPrimary);
@@ -36,6 +44,101 @@ header {
                 justify-content: start;
                 a {
                     font-weight: 400;
+                }
+            }
+        }
+        .menu-mobile {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: $colorBackgroundDefault;
+            width: 100vw;
+            height: 160vh;
+            z-index: 99;
+            padding: 0 3em;
+            .icon-close-menu {
+                padding: 35px 0;
+                padding-bottom: 25px;
+                font-size: 27px;
+            }
+            .items {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    @include font-std(24px, $colorWhite, 500, $fontPrimary);
+                    line-height: 1.2;
+                }
+                i {
+                    -webkit-transition: -webkit-transform .4s ease-in-out;
+                    -ms-transition: -ms-transform .4s ease-in-out;
+                    transition: transform .4s ease-in-out;
+                }
+                &[aria-expanded="true"] {
+                    i{
+                        transform:rotate(180deg);
+                        -ms-transform:rotate(180deg);
+                        -webkit-transform:rotate(180deg);
+                    }
+                }
+            }
+            .sub-items {
+                padding-left: 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    @include font-std(20px, $colorWhite, 300, $fontPrimary);
+                }
+                i {
+                    transform: rotate(270deg);
+                }
+            }
+            ul {
+                padding-top: 10px;
+            }
+            li {
+                padding: 10px 0;
+            }
+            .first-layer {
+                padding: 15px 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+            }
+            .icon-arrow-down {
+                font-size: 8px;
+                color:$colorWhite;
+            }
+
+            &--input {
+                padding: 15px 10px !important;
+                border-bottom: 1px solid rgba(255,255,255,0.31);
+                width: 100%;
+                input {
+                    width: 100%;
+                    @include font-std(16px, $colorWhite, 400, $fontPrimary);
+                    background-color: transparent;
+                    border: none;
+                    &::placeholder {
+                        color:$colorWhite;
+                    }
+                    &:focus {
+                        background-color: transparent;
+                    }
+                }
+            }
+            &--ropape {
+                margin: 20px 0;
+                i {
+                    font-size: 20px;
+                }
+            }
+            &--user {
+                @include font-std(14px, $colorWhite, 400, $fontPrimary);
+                padding: 11px;
+                border: 1px solid #fff;
+                i {
+                    font-size: 18px;
                 }
             }
         }

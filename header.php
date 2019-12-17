@@ -46,7 +46,17 @@
   <header>
     <div class="container">
       <div class="header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="header--mobile d-flex d-md-none justify-content-between align-items-center px-3">
+          <picture>
+              <source srcset="assets/images/logo-mobile.webp" type="image/webp">
+              <source srcset="assets/images/logo-mobile.png" type="image/png"> 
+              <img src="assets/images/logo-mobile.png" alt="Logo Sbpsp">
+          </picture>
+          <button class="navbar-toggler navbar-light" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="d-none d-md-flex row flex-nowrap justify-content-between align-items-center">
           <div class="col-md-4 pt-1">
             <a href="https://www.facebook.com/sbpsp/">
               <i class="mx-3 icon icon-facebook"></i>
@@ -76,10 +86,101 @@
             </div>
           </div>
         </div>
+
+        <!-- Menu Collapse Mobile -->
+          <div class="menu-mobile collapse navbar-collapse">
+              <div class="d-flex justify-content-end">
+                <i class="icon-close-menu"></i>
+              </div>
+              <ul>
+                  <li class="first-layer">
+                      <a class="items" href="#" data-toggle="collapse" data-target="#submenu-1">
+                        <span>QUEM SOMOS</span>
+                        <i class="icon-arrow-down"></i>
+                      </a>
+                      <ul id="submenu-1" class="collapse">
+                        <li>
+                          <a class="sub-items" href="#">
+                            <span>A Sociedade</span>
+                            <i class="icon-arrow-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="sub-items" href="#">
+                            <span>Corpo Diretivo</span>
+                            <i class="icon-arrow-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="sub-items" href="#">
+                            <span>Equipe</span>
+                            <i class="icon-arrow-down"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="sub-items" href="#">
+                            <span>Contato</span>
+                            <i class="icon-arrow-down"></i>
+                          </a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="first-layer">
+                    <a class="items" href="#">
+                      <span>FORMAÇÃO PSICANALÍTICA</span>
+                      <i class="icon-arrow-down"></i>
+                    </a>
+                  </li>
+                  <li class="first-layer">
+                    <a class="items" href="#">
+                      <span>ATIVIDADES</span>
+                      <i class="icon-arrow-down"></i>
+                    </a>
+                  </li>
+                  <li class="first-layer">
+                    <a class="items" href="#">
+                      <span>ESTUDOS E PESQUISA</span>
+                      <i class="icon-arrow-down"></i>
+                    </a>
+                  </li>
+                  <li class="first-layer">
+                    <a class="items" href="#">
+                      <span>ATENDIMENTO À COMUNIDADE</span>
+                      <i class="icon-arrow-down"></i>
+                    </a>
+                  </li>
+                  <li class="first-layer">
+                    <a class="items" href="#">
+                      <span>BLOG</span>
+                      <i class="icon-arrow-down"></i>
+                    </a>
+                  </li>
+                  <li class="menu-mobile--input">
+                    <span class="d-flex">
+                      <img src="assets/images/icon-search.png" alt="Ícone de busca">
+                      <div class="input-group mx-2">
+                        <input type="text" placeholder="O que você está buscando?">
+                      </div>
+                    </span>
+                  </li>
+              </ul>
+              <div class="menu-mobile--ropape d-flex flex-row justify-content-between align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="icon-facebook-mobile px-1"></i>
+                  <i class="icon-instagram-mobile px-1"></i>
+                  <i class="icon-twitter-mobile px-1"></i>
+                </div>
+                <a class="menu-mobile--user" href="/">
+                  <i class="icon-user"></i>
+                  Acesso a membros
+                </a>
+              </div>
+          </div>
+        <!-- End Menu Collapse Mobile -->
       </div>
     </div>
   </div>
-  <div class="header--menu">
+  <div class="header--menu d-none d-md-block">
     <div class="container">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="logo-sbpsp col-md-2">

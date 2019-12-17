@@ -4,3 +4,21 @@
 	font-weight: $wheight;
 	font-family: $font-family;
 }
+
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin notebook {
+  @media (min-width: 1026px) and (max-width: 1500px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 992px) and (max-width: 1024px) {
+    @content;
+  }
+}

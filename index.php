@@ -10,15 +10,15 @@
 
 <section class="webdoor">
     <div class="container">
-        <div class="webdoor--content row flex-nowrap justify-content-between">
-            <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div class="webdoor--content row flex-nowrap justify-content-between align-items-end align-items-md-center">
+            <div class="col-md-6 d-flex flex-column justify-content-center px-4 px-md-0">
                 <h1 class="webdoor--title">
                    Sociedade Brasileira de<br>
                    Psicanálise de São Paulo 
                 </h1>
                 <i class="icon-arrow-down"></i>
             </div>
-            <div class="col-md-4 d-flex justify-content-between align-items-center">
+            <div class="col-md-4 d-none justify-content-between align-items-center d-md-flex">
                 <div class="webdoor--box">
                     <p>
                         Formação<br>
@@ -35,9 +35,10 @@
 </section>
 
 
+
 <!-- Próximos Eventos -->
 <main class="next-events container">
-    <div class="tab-blue-default"></div>
+    <div class="tab-blue-default d-none d-md-block"></div>
     <h2 class="next-events--title">Próximos eventos</h2>
     <div class="row">
         <div class="col-md-8 d-flex flex-wrap next-events--main">
