@@ -90,7 +90,7 @@
         <!-- Menu Collapse Mobile -->
           <div class="menu-mobile collapse navbar-collapse">
               <div class="d-flex justify-content-end">
-                <i class="icon-close-menu"></i>
+                <i class="icon-close-search"></i>
               </div>
               <ul>
                   <li class="first-layer">

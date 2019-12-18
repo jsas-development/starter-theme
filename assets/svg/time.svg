@@ -1,8 +1,14 @@
-<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.1011 21C16.6391 21 21.1284 16.5228 21.1284 11C21.1284 5.47715 16.6391 1 11.1011 1C5.56318 1 1.07379 5.47715 1.07379 11C1.07379 16.5228 5.56318 21 11.1011 21Z" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M11.1011 1V3" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M1.07379 11H2.07652" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M11.1011 21V20" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M21.1284 11H19.1229" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M10.9938 4.67603V11.107L6.5296 16.548" stroke="#00668C" stroke-width="1.5" stroke-miterlimit="10"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00668C;}
+</style>
+<g>
+	<path class="st0" d="M11.1,0.3C5.2,0.3,0.3,5.1,0.3,11s4.8,10.8,10.8,10.8c5.9,0,10.8-4.8,10.8-10.8S17,0.3,11.1,0.3z M11.9,20.2
+		V20h-1.5v0.2c-4.5-0.4-8.1-4-8.5-8.5h0.2v-1.5H1.9c0.4-4.5,4-8.1,8.5-8.5V3h1.5V1.8c4.5,0.4,8.1,4,8.5,8.5h-1.2v1.5h1.2
+		C20,16.3,16.4,19.8,11.9,20.2z"/>
+	<polygon class="st0" points="10.2,10.8 6,16.1 7.1,17 11.7,11.4 11.7,4.7 10.2,4.7 	"/>
+</g>
 </svg>

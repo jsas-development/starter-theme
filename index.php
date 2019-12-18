@@ -16,7 +16,16 @@
                    Sociedade Brasileira de<br>
                    Psicanálise de São Paulo 
                 </h1>
-                <i class="icon-arrow-down"></i>
+                <div class="d-none d-md-block">
+                    <a href="#next-events">
+                        <i class="icon-arrow-down"></i>
+                    </a>
+                </div>
+                <div class="d-block d-md-none">
+                    <a href="#links-mobile">
+                        <i class="icon-arrow-down"></i>
+                    </a>
+                </div>
             </div>
             <div class="col-md-4 d-none justify-content-between align-items-center d-md-flex">
                 <div class="webdoor--box">
@@ -34,14 +43,22 @@
     </div>
 </section>
 
+<!-- Links para versão Mobile -->
+<section id="links-mobile" class="links-mobile d-block d-md-none">
+    <h2 class="links-mobile--title">Encontre psicanalistas<br>membros e membros filiados</h2>
+    <a class="btn-default" href="/">Ver todos</a>
+    <h2 class="links-mobile--title">Formação psicanalítica<br>na SBPSP</h2>
+    <a class="btn-default" href="/">Ver todos</a>
+</section>
 
 
 <!-- Próximos Eventos -->
-<main class="next-events container">
+<main id="next-events" class="next-events container">
     <div class="tab-blue-default d-none d-md-block"></div>
-    <h2 class="next-events--title">Próximos eventos</h2>
-    <div class="row">
+    <h2 class="next-events--title d-none d-md-block">Próximos eventos</h2>
+    <div class="row flex-column-reverse flex-md-row">
         <div class="col-md-8 d-flex flex-wrap next-events--main">
+            <h2 class="next-events--title d-block d-md-none">Eventos</h2>
             <div class="col-md-6">
               <div class="card mb-4">
                   <a href="">
@@ -111,7 +128,7 @@
               </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 d-none d-md-block">
               <div class="card mb-4">
                   <a href="">
                       <picture>
@@ -201,60 +218,68 @@
         <h2 class="latest-posts--title">Confira as últimas publicações</h2>
         <div class="row">
             <div class="col-md-3">
-                <picture>
-                    <source srcset="assets/images/latest-post1.webp" type="image/webp">
-                    <source srcset="assets/images/latest-post1.png" type="image/png"> 
-                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post1.png" alt="Logo Sbpsp">
-                    <div class="latest-posts--img-opacity">
-                        <span class="caption">
-                            <b>Interpretações da Cultura</b><br>
-                            Edição 78
-                        </span>
-                        <a href="/" class="link">leia mais</a>
-                    </div>
-                </picture>
+                <a href="/">
+                    <picture>
+                        <source srcset="assets/images/latest-post1.webp" type="image/webp">
+                        <source srcset="assets/images/latest-post1.png" type="image/png"> 
+                        <img class="card-img-top latest-posts--img" src="assets/images/latest-post1.png" alt="Logo Sbpsp">
+                        <div class="latest-posts--img-opacity d-none d-md-flex">
+                            <span class="caption">
+                                <b>Interpretações da Cultura</b><br>
+                                Edição 78
+                            </span>
+                            <a href="/" class="link">leia mais</a>
+                        </div>
+                    </picture>
+                </a>
             </div>
             <div class="col-md-3">
-                <picture>
-                    <source srcset="assets/images/latest-post2.webp" type="image/webp">
-                    <source srcset="assets/images/latest-post2.png" type="image/png"> 
-                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post2.png" alt="Logo Sbpsp">
-                    <div class="latest-posts--img-opacity">
-                        <span class="caption">
-                            <b>Interpretações da Cultura</b><br>
-                            Edição 78
-                        </span>
-                        <a href="/" class="link">leia mais</a>
-                    </div>
-                </picture>
+                <a href="/">
+                    <picture>
+                        <source srcset="assets/images/latest-post2.webp" type="image/webp">
+                        <source srcset="assets/images/latest-post2.png" type="image/png"> 
+                        <img class="card-img-top latest-posts--img" src="assets/images/latest-post2.png" alt="Logo Sbpsp">
+                        <div class="latest-posts--img-opacity d-none d-md-flex">
+                            <span class="caption">
+                                <b>Interpretações da Cultura</b><br>
+                                Edição 78
+                            </span>
+                            <a href="/" class="link">leia mais</a>
+                        </div>
+                    </picture>
+                </a>
             </div>
             <div class="col-md-3">
-                <picture>
-                    <source srcset="assets/images/latest-post3.webp" type="image/webp">
-                    <source srcset="assets/images/latest-post3.png" type="image/png"> 
-                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post3.png" alt="Logo Sbpsp">
-                    <div class="latest-posts--img-opacity">
-                        <span class="caption">
-                            <b>Interpretações da Cultura</b><br>
-                            Edição 78
-                        </span>
-                        <a href="/" class="link">leia mais</a>
-                    </div>
-                </picture>
+                <a href="/">
+                    <picture>
+                        <source srcset="assets/images/latest-post3.webp" type="image/webp">
+                        <source srcset="assets/images/latest-post3.png" type="image/png"> 
+                        <img class="card-img-top latest-posts--img" src="assets/images/latest-post3.png" alt="Logo Sbpsp">
+                        <div class="latest-posts--img-opacity d-none d-md-flex">
+                            <span class="caption">
+                                <b>Interpretações da Cultura</b><br>
+                                Edição 78
+                            </span>
+                            <a href="/" class="link">leia mais</a>
+                        </div>
+                    </picture>  
+                </a>
             </div>
-            <div class="col-md-3">
-                <picture>
-                    <source srcset="assets/images/latest-post4.webp" type="image/webp">
-                    <source srcset="assets/images/latest-post4.png" type="image/png"> 
-                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post4.png" alt="Logo Sbpsp">
-                    <div class="latest-posts--img-opacity">
-                        <span class="caption">
-                            <b>Interpretações da Cultura</b><br>
-                            Edição 78
-                        </span>
-                        <a href="/" class="link">leia mais</a>
-                    </div>
-                </picture>
+            <div class="col-md-3 d-none d-md-block">
+                <a href="/">
+                    <picture>
+                        <source srcset="assets/images/latest-post4.webp" type="image/webp">
+                        <source srcset="assets/images/latest-post4.png" type="image/png"> 
+                        <img class="card-img-top latest-posts--img" src="assets/images/latest-post4.png" alt="Logo Sbpsp">
+                        <div class="latest-posts--img-opacity d-none d-md-flex">
+                            <span class="caption">
+                                <b>Interpretações da Cultura</b><br>
+                                Edição 78
+                            </span>
+                            <a href="/" class="link">leia mais</a>
+                        </div>
+                    </picture>
+                </a>
             </div>
         </div>
         <a href="/" class="btn-default">Ver todos</a>
@@ -262,7 +287,7 @@
 </section>
 
 <!-- últimas publicações Twitter -->
-<section class="latest-posts-twitter">
+<section class="latest-posts-twitter d-none d-md-block">
     <div class="container">
         <h2 class="latest-posts-twitter--title">Confira as últimas publicações</h2>
         <div class="row">
@@ -315,16 +340,16 @@
             <div class="col-12 video-play">
                 <div class="slider-for">
                     <a class="video-fancybox" href="https://www.youtube.com/embed/Z63o83ZM86k?autoplay=1">
-                        <img width="100%" height="650" src="https://img.youtube.com/vi/LZGYdHV1KMc/0.jpg">
+                        <img src="https://img.youtube.com/vi/LZGYdHV1KMc/0.jpg">
                     </a>
                     <a class="video-fancybox" href="https://www.youtube.com/embed/Z63o83ZM86k?autoplay=1">
-                        <img width="100%" height="650" src="https://img.youtube.com/vi/LZGYdHV1KMc/1.jpg">
+                        <img src="https://img.youtube.com/vi/LZGYdHV1KMc/1.jpg">
                     </a>
                     <a class="video-fancybox" href="https://www.youtube.com/embed/Z63o83ZM86k?autoplay=1">
-                        <img width="100%" height="650" src="https://img.youtube.com/vi/GPPchsl96fc/0.jpg">
+                        <img src="https://img.youtube.com/vi/GPPchsl96fc/0.jpg">
                     </a>
                 </div>
-                <div class="video-background d-flex align-items-center justify-content-center">
+                <div class="video-background d-flex flex-column flex-md-row align-items-center justify-content-center">
                     <i class="icon-play"></i>
                     <span>
                         Encontro sobre o Mal-Estar<br>
@@ -332,7 +357,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-12 video-nav">
+            <div class="col-12 video-nav d-none d-md-block">
                 <div class="slider-nav">
                     <div class="col-12">
                         <picture>
@@ -375,19 +400,43 @@
     </div>
 </section>
 
-<section class="blog">
+<!-- Desktop -->
+<section class="blog d-none d-md-block">
     <div class="row">
         <div class="col-6 d-flex align-items-center flex-column justify-content-center">
             <div class="blog--container">
                 <span>BLOG</span>
-                <div class="blog--title">
-                Conversando com<br>Shakespeare e Freud
-                </div>
+                <h3 class="blog--title">
+                    Conversando com<br>Shakespeare e Freud
+                </h3>
                 <a href="" class="btn-default">Ver todos</a>
             </div>
         </div>
         <div class="col-6 blog--img">
         </div>
+    </div>
+</section>
+
+<!-- Mobile -->
+<section class="blog d-block d-md-none">
+    <h3 class="blog--publicacoes">
+        Publicações
+    </h3>
+    <div class="bg-color">
+        <div class="blog--img">
+            <picture>
+                <source srcset="assets/images/freud.webp" type="image/webp">
+                <source srcset="assets/images/freud.jpg" type="image/jpg"> 
+                <img class="" src="assets/images/freud.jpg" alt="Logo Sbpsp">
+            </picture>
+        </div>
+            <div class="col-12 d-flex blog--container">
+                <h3 class="blog--title">
+                    Conversando com<br>Shakespeare e Freud
+                </h3>
+                <span>Heloisa Helena Sitrângulo Ditolvo</span>
+                <a href="" class="btn-default">Inscrições abertas</a>
+            </div>
     </div>
 </section>
 

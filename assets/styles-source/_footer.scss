@@ -5,6 +5,7 @@ footer {
     .footer-links {
         padding: 40px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        border-top: 3px solid rgba(255,255,255,1);
 
         &--form {
             width: 29%;
@@ -37,11 +38,37 @@ footer {
             .form-email {
                 margin-top: 20px;
             }
+            @include mobile {
+                width: 80%;
+                padding-bottom: 30px;
+                margin: auto;
+            }
+        }
+        &--social-mobile {
+            @include mobile {
+                width: 80%;
+                margin: auto;
+                border-top: 1px solid rgba(255, 255, 255, 0.25);
+                margin-top: 35px;
+            }
+            ul {
+                margin: 0;
+            }
+            i {
+                font-size: 30px;
+            }
         }
     }
-
+    ul {
+        @include mobile {
+            margin-left: 10%;
+        }
+    }
     li {
         padding: 8px 0;
+        @include mobile {
+            padding: 15px 0;
+        }
     }
     i {
         padding: 0 10px;

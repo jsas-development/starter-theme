@@ -5,8 +5,16 @@ $( document ).ready(function() {
 		slidesToScroll: 1,
 		arrows: false,
 		fade: true,
-		asNavFor: '.slider-nav'
-	});
+		asNavFor: '.slider-nav',
+		responsive: [{
+			  breakpoint: 768,
+			  settings: {
+				arrows: true,
+				prevArrow:"<i class='slick-prev icon-arrow-carousel'></i>",
+				nextArrow:"<i class='icon-arrow-carousel slick-next'></i>",
+			  }
+			}]
+		});
 	$('.slider-nav').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
@@ -69,7 +77,7 @@ $( document ).ready(function() {
 	$(".navbar-toggler").click(function(){
 		$(".menu-mobile").slideDown("fast");
 	});
-	$(".icon-close-menu").click(function(){
+	$(".menu-mobile div .icon-close-search").click(function(){
 		$(".menu-mobile").slideUp("fast");
 	});
 

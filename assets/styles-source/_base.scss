@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     line-height: 1;
     @include font-std(16px, $colorBlack, 300, $fontPrimary);
@@ -57,6 +60,7 @@ a {
     &:hover {
         text-decoration: none;
         color: $colorWhite;
+        opacity: 0.85;
     }
 }
 
@@ -74,4 +78,7 @@ a {
     background: #00A0DC;
     margin-top: 10px;
     display: inline-block;
+    &:hover {
+        background: #077eab;
+    }
 }

@@ -22,6 +22,7 @@
     &--title {
         @include font-std(40px, $colorWhite, 400, $fontSecond);
         padding-top: 3em;
+        padding-bottom: 23px;
         @include mobile {
             font-size: 29px;
             line-height: 1.3;
@@ -30,6 +31,7 @@
         }
     }
     .icon-arrow-down {
+        font-size: 24px;
         padding-top: 25px;
         color: $colorWhite;
     }
@@ -52,7 +54,7 @@
                 font-size: 20px;
             }
         }
-        
+
     }
 }
 
@@ -66,6 +68,9 @@
     &--title {
         @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
         padding: 63px 0;
+        @include mobile {
+            font-size: 28px;
+        }
     }
     &--main {
         display: flex;
@@ -96,6 +101,9 @@
     &--box-title {
         @include font-std(22px, $colorBackgroundDefault, 400, $fontSecond);
         padding-left: 10px;
+        @include mobile {
+            font-size: 20px;
+        }
     }
     &--box-item {
         @include font-std(12px, #707070, 400, $fontPrimary);
@@ -137,7 +145,19 @@
             }
         }
     }
-        
+    @include mobile {
+        padding-top: 40px;
+    }
+}
+
+.links-mobile {
+    text-align: center;
+    padding: 30px 0;
+    &--title {
+        @include font-std(22px, $colorBackgroundDefault, 500, $fontSecond);
+        padding: 40px 0;
+        line-height: 1.3;
+    }
 }
 
 .latest-posts {
@@ -146,6 +166,9 @@
     &--title {
         @include font-std(40px, $colorWhite, 400, $fontSecond);
         padding: 63px 0;
+        @include mobile {
+            font-size: 28px;
+        }
     }
     &--img {
         position: relative;
@@ -186,6 +209,9 @@
         background-color: $colorWhite;
         color: $colorBlueDefault;
         margin: 30px 0 63px;
+        &:hover {
+            
+        }
     }
 }
 
@@ -236,7 +262,10 @@
     text-align: center;
     &--title {
         @include font-std(40px, $colorBackgroundDefault, 400, $fontSecond);
-        padding: 63px 0;
+        padding: 72px 0;
+        @include mobile {
+            font-size: 28px;
+        }
     }
 
     .btn-default {
@@ -246,27 +275,81 @@
     .video-play {
         position: relative;
         padding: 0;
+        box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.25);
+        img {
+            width: 100%;
+            height: 647px;
+            @include mobile {
+                height: 269px;
+            }
+        }
+        .slick-next {
+            border: 1px solid #C0C0C0;
+            right: 0px;
+            top: -27px;
+            z-index: 999999;
+            height: 55px;
+            width: 55px;
+            &:before {
+                color: $colorBackgroundDefault;
+                transform: rotate(180deg);
+                margin-top: 13px;
+                margin-left: 2px;
+            }
+        }
+        .slick-prev {
+            border: 1px solid #C0C0C0;
+            right: 54px;
+            left: unset;
+            top: -27px;
+            z-index: 999999;
+            height: 55px;
+            width: 55px;
+            &:before {
+                color: $colorBackgroundDefault;
+                margin-top: 13px;
+                margin-left: 2px;
+            }
+        }
+        .icon-arrow-carousel {
+            font-size: 28px;
+            z-index: 1;
+        }
     }
     .video-background {
         position: absolute;
+        cursor: pointer;
         top: 0;
         left: 0;
         background: rgba(12, 77, 161, 0.68);
         width: 100%;
         height: 650px;
         display: flex;
+        @include mobile {
+            height: 269px;
+        }
         .icon-play {
             font-size: 125px;
             color: #fff;
             margin: 0 40px;
+            @include mobile {
+                font-size: 80px;
+            }
         }
         span {
             @include font-std(40px, $colorWhite, 400, $fontSecond);
             margin: 0 10px;
+            @include mobile {
+                padding-top: 20px;
+                font-size: 20px;
+            }
         }
     }
     .video-nav {
         margin: 40px 0;
+        .card-img-top {
+            cursor: pointer;
+        }
     }
 }
 
@@ -274,13 +357,32 @@
     background-color: $colorBackgroundDefault;
     height: 597px;
     width: 100%;
+    @include mobile {
+        height: auto;
+        background-color: unset;
+    }
+    .bg-color {
+        background-color: $colorBackgroundDefault;
+        width: 100%;
+    }
     span {
         @include font-std(18px, #6F9ED9, 400, $fontPrimary);
+        @include mobile {
+            @include font-std(14px, $colorWhite, 400, $fontPrimary);
+        }
     }
     &--img {
         background-image: url("../images/freud.jpg");
         background-size: cover;
         height: 597px;
+        @include mobile {
+            background-image: none;
+            height: auto;
+            padding: 0;
+            img {
+                width: 100%;
+            }
+        }
     }
     &--container {
         width: 100%;
@@ -289,13 +391,34 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        @include mobile {
+            padding-left: 15%;
+            padding-bottom: 19px;
+        }
     }
     &--title {
         @include font-std(40px, $colorWhite, 400, $fontSecond);
         padding-bottom: 65px;
+        @include mobile {
+            font-size: 28px;
+            padding: 0;
+        }
+    }
+    &--publicacoes {
+        @include font-std(28px, $colorBackgroundDefault, 400, $fontSecond);
+        padding: 63px 0;
+        text-align: center;
+    }
+    &--container {
+        
     }
     .btn-default {
         text-align: center;
+        @include mobile {
+            font-weight: 400;
+            background-color: $colorWhite;
+            color: $colorBackgroundDefault;
+        }
     }
 }
 
