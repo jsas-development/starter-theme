@@ -1,15 +1,42 @@
-.webdoor-quem-somos {
+
+//webdoors
+.quem-somos {
     background-image: url("../images/webdoor-quem-somos.jpg");
+    @include mobile {
+        background-image: url("../images/webdoor-quem-somos-mobile.jpg");
+    }
+}
+
+.formacao {
+    background-image: url("../images/webdoor-formacao.jpg");
+    @include mobile {
+        background-image: url("../images/webdoor-formacao-mobile.jpg");
+    }
+}
+
+.central-de-vendas {
+    background-image: url("../images/webdoor-central-de-venda.jpg");
+    @include mobile {
+        background-image: url("../images/webdoor-central-de-venda-mobile.jpg");
+    }
+}
+
+
+
+.webdoor-institucional {
     background-size: cover;
     height: 500px;
     @include mobile {
-        background-image: url("../images/webdoor-quem-somos-mobile.jpg");
         background-size: cover;
         height: 230px;
     }
 }
 
 .institucional {
+    padding-top: 60px;
+    @include mobile {
+        padding-top: 0;
+    }
     &--title {
         @include font-std(44px, $colorBackgroundDefault, 400, $fontSecond);
         @include mobile {
