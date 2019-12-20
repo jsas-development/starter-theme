@@ -365,6 +365,7 @@
                             <source srcset="assets/images/videos-example.jpg" type="image/jpg"> 
                             <img class="card-img-top" src="assets/images/videos-example.jpg" alt="Logo Sbpsp">
                         </picture>
+                        <span>Encontro sobre o Mal-Estar na Civilização: Poder</span>
                     </div>
                     <div class="col-12">
                         <picture>
@@ -372,6 +373,7 @@
                             <source srcset="assets/images/videos-example.jpg" type="image/jpg"> 
                             <img class="card-img-top" src="assets/images/videos-example.jpg" alt="Logo Sbpsp">
                         </picture>
+                        <span>Encontro sobre o Mal-Estar na Civilização: Poder</span>
                     </div>
                     <div class="col-12">
                         <picture>
@@ -379,6 +381,7 @@
                             <source srcset="assets/images/videos-example.jpg" type="image/jpg"> 
                             <img class="card-img-top" src="assets/images/videos-example.jpg" alt="Logo Sbpsp">
                         </picture>
+                        <span>Encontro sobre o Mal-Estar na Civilização: Poder</span>
                     </div>
                     <div class="col-12">
                         <picture>
@@ -386,6 +389,7 @@
                             <source srcset="assets/images/videos-example.jpg" type="image/jpg"> 
                             <img class="card-img-top" src="assets/images/videos-example.jpg" alt="Logo Sbpsp">
                         </picture>
+                        <span>Encontro sobre o Mal-Estar na Civilização: Poder</span>
                     </div>
                     <div class="col-12">
                         <picture>
@@ -393,6 +397,7 @@
                             <source srcset="assets/images/videos-example.jpg" type="image/jpg"> 
                             <img class="card-img-top" src="assets/images/videos-example.jpg" alt="Logo Sbpsp">
                         </picture>
+                        <span>Encontro sobre o Mal-Estar na Civilização: Poder</span>
                     </div>
                 </div>
             </div>

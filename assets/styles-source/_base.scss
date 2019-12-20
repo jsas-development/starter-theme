@@ -57,6 +57,7 @@ table {
 a {
     color: $colorBlack;
     text-decoration: none;
+    transition: all 0.5s;
     &:hover {
         text-decoration: none;
         color: $colorWhite;
@@ -66,7 +67,12 @@ a {
 
 @font-face {
     font-family: 'Rotis SemiSerif Std';
-    src:  url('../fonts/RotisSemiSerifStd-Regular.eot');
+    src:  url('../fonts/RotisSemiSerifStd.otf');
+}
+
+@font-face {
+    font-family: 'Rotis Sans Serif Std';
+    src:  url('../fonts/RotisSemiSerifStd.otf');
 }
 
 .btn-default {

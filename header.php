@@ -42,16 +42,23 @@
     <![endif]-->
   </head>
   <body>
-
-  <header>
+  <header <?php if($_SERVER['REQUEST_URI']!="/"):?> class="header-institucional" <?php endif;?>>
     <div class="container">
       <div class="header py-3">
         <div class="header--mobile d-flex d-md-none justify-content-between align-items-center px-3">
-          <picture>
-              <source srcset="assets/images/logo-mobile.webp" type="image/webp">
-              <source srcset="assets/images/logo-mobile.png" type="image/png"> 
-              <img src="assets/images/logo-mobile.png" alt="Logo Sbpsp">
-          </picture>
+          <?php if($_SERVER['REQUEST_URI']!="/"):?>
+            <picture>
+                <source srcset="assets/images/logo-mobile-blue.webp" type="image/webp">
+                <source srcset="assets/images/logo-mobile-blue.png" type="image/png"> 
+                <img src="assets/images/logo-mobile-blue.png" alt="Logo Sbpsp">
+            </picture>
+          <?php else:?>
+            <picture>
+                <source srcset="assets/images/logo-mobile.webp" type="image/webp">
+                <source srcset="assets/images/logo-mobile.png" type="image/png"> 
+                <img src="assets/images/logo-mobile.png" alt="Logo Sbpsp">
+            </picture> 
+          <?php endif;?>
           <button class="navbar-toggler navbar-light" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>

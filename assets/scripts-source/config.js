@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-	console.log("Ready for use!");
 	$('.slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -81,4 +80,11 @@ $( document ).ready(function() {
 		$(".menu-mobile").slideUp("fast");
 	});
 
+	//Menu Institucional 
+	$(".institucional--select-change").focusin(function() {
+		$(".icon-arrow-carousel").css("transform","rotate(90deg)");
+	})
+	.focusout(function() {
+		$(".icon-arrow-carousel").css("transform","rotate(270deg)");
+	});
 });

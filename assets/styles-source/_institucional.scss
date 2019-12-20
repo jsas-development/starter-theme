@@ -1,0 +1,72 @@
+.webdoor-quem-somos {
+    background-image: url("../images/webdoor-quem-somos.jpg");
+    background-size: cover;
+    height: 500px;
+    @include mobile {
+        background-image: url("../images/webdoor-quem-somos-mobile.jpg");
+        background-size: cover;
+        height: 230px;
+    }
+}
+
+.institucional {
+    &--title {
+        @include font-std(44px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 28px;
+        }
+    }
+    &--text {
+        @include font-std(20px, #707070, 400, $fontPrimary);
+        line-height: 1.2;
+        @include mobile {
+            font-size: 18px;
+        }
+    }
+    &--sidenav {
+        background-color: #F4F4F4;
+        max-height: 550px;
+        ul {
+            padding-left: 50px;
+        }
+    }
+    p {
+        margin: 20px 0;
+    }
+    li {
+        padding: 20px;
+        &.active {
+            border-left: 8px solid $colorBackgroundDefault;
+        }
+    }
+    a {
+        @include font-std(22px, $colorBackgroundDefault, 400, $fontSecond);
+    }
+    &--container {
+        max-width: 800px;
+        padding-bottom: 200px;
+        padding-top: 35px;
+    }
+    &--select {
+        height: 90px;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+        select {
+            @include font-std(20px, $colorBackgroundDefault, bold, $fontPrimary);
+            padding: 20px 10px;
+            border: 1px solid #C4C4C4;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: transparent;
+        }
+        i {
+            font-size: 14px;
+            z-index: 1;
+            position: absolute;
+            transform: rotate(270deg);
+            transition: all 0.3s;
+            right: 35px;
+            color: $colorBackgroundDefault;
+        }
+    }
+}

@@ -347,8 +347,13 @@
     }
     .video-nav {
         margin: 40px 0;
+        text-align: left;
         .card-img-top {
             cursor: pointer;
+            margin-bottom: 10px;
+        }
+        span {
+            @include font-std(20px, $colorBackgroundDefault, 400, $fontSecond);
         }
     }
 }
