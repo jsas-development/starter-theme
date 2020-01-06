@@ -5,11 +5,11 @@ iconfont Webfont
 @font-face {
  font-family: "iconfont";
 
- src: url('../fonts/iconfont.eot?1576676537233');
- src: url('../fonts/iconfont.eot?#iefix-1576676537233') format('embedded-opentype'),
-  url('../fonts/iconfont.woff2?1576676537233') format('woff2'),
-  url('../fonts/iconfont.woff?1576676537233') format('woff'),
-  url('../fonts/iconfont.ttf?1576676537233') format('truetype');
+ src: url('../fonts/iconfont.eot?1578318689783');
+ src: url('../fonts/iconfont.eot?#iefix-1578318689783') format('embedded-opentype'),
+  url('../fonts/iconfont.woff2?1578318689783') format('woff2'),
+  url('../fonts/iconfont.woff?1578318689783') format('woff'),
+  url('../fonts/iconfont.ttf?1578318689783') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -75,22 +75,26 @@ Glyphs list
  content: '\ea0a';
 }
 
-.icon-time:before {
+.icon-success:before {
  content: '\ea0b';
 }
 
-.icon-twitter-mobile:before {
+.icon-time:before {
  content: '\ea0c';
 }
 
-.icon-twitter:before {
+.icon-twitter-mobile:before {
  content: '\ea0d';
 }
 
-.icon-user:before {
+.icon-twitter:before {
  content: '\ea0e';
 }
 
-.icon-youtube:before {
+.icon-user:before {
  content: '\ea0f';
+}
+
+.icon-youtube:before {
+ content: '\ea10';
 }

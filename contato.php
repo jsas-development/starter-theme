@@ -8,61 +8,105 @@
 
 ?>
 
-<section class="webdoor-institucional quem-somos"></section>
+<section class="contato--title">
+    <div class="container">
+        <h1>Entre em contato</h1>
+    </div>
+</section>
 
 <section class="institucional">
-    <div class="row" style=>
-        <div class="institucional--sidenav col-4 d-none d-md-flex justify-content-center">
-            <ul>
-                <li class="active">
-                    <a href="/about.php">
-                        Quem somos
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Corpo Diretivo
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Equipe
-                    </a>
-
-                </li>
-                <li>
-                    <a href="">
-                        Contato
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="institucional--select d-flex justify-content-center d-md-none col-12 px-5">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <i class="icon-arrow-carousel"></i>
-                <select class="col-12 institucional--select-change" onchange="location = this.value;">
-                    <option selected>A Sociedade</option>
-                    <option value="/">Corpo Diretivo</option>
-                    <option value="2">Equipe</option>
-                    <option value="3">Contato</option>
-                </select>
+    <div class="row m-0">
+        <div class="institucional--sidenav col-12 col-md-5 d-flex justify-content-end">
+            <div class="contato--form">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label for="inputNome">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="digite seu nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                        <label for="inputSobrenome">Sobrenome</label>
+                        <input type="text" class="form-control" id="inputSobrenome" placeholder="digite seu sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                        <label for="inputEmail">E-mail</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="email@email.com.br">
+                        </div>
+                        <div class="form-group col-md-6">
+                        <label for="inputTelefone">Telefone</label>
+                        <input type="text" class="form-control" id="inputTelefone" placeholder="(   )">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAssunto">Assunto</label>
+                        <input type="text" class="form-control" id="inputAssunto" placeholder="sobre o que deseja falar?">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleMensagem">Mensagem</label>
+                        <textarea class="form-control" id="exampleMensagem" placeholder="digite aqui sua mensagem" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-default">Enviar Mensagem</button>
+                </form>
+                <div class="contato--modal-sucess">
+                    <div class="contato--modal-sucess--content d-flex flex-column justify-content-between align-items-center">
+                        <i class="icon-success"></i>
+                        <h2>Mensagem enviada.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis ante ut sapien lacinia sagittis. Sed nisi purus, pulvinar et leo vitae, facilisis rhoncus neque. Morbi vitae dolor id ipsum commodo elementum. </p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-12 col-md-8">
+        
+        <div class="col-12 col-md-6 background-thumb">
             <div class="institucional--container px-5">
-                <h1 class="institucional--title">Quem somos</h1>
-                <span class="institucional--text">
-                    <p>A Sociedade Brasileira de Psicanálise de São Paulo existe desde 24 de novembro de 1927, tendo sido a primeira sociedade psicanalítica da América Latina.  Foi a primeira sociedade brasileira a ser reconhecida pela Associação Psicanalítica Internacional da qual é membro componente, assim como é da Federação Psicanalítica da América Latina e da Federação Brasileira de Psicanálise.
-                    <p>Composta atualmente por 453 membros efetivos e associados da SBPSP e 307 membros filiados ao Instituto Durval Marcondes, a Sociedade de São Paulo busca manter o pluralismo psicanalítico teórico-clínico, a interação de psicanalistas com orientações diversas e também estimular
-                    <p>estimular férteis diálogos com outras áreas do conhecimento e da cultura. Mantém um notável fluxo científico e permanente de publicações, como o Jornal de Psicanálise e a Revista ide.
-                </span>
-                </p>
-                <h2 class="institucional--title">O reconhecimento</h2>
-                <span class="institucional--text">
-                    <p>A SBPSP tem sido reconhecida por sua destacada participação na evolução da Psicanálise latino-americana e internacional, a partir do trabalho pioneiro de Durval Marcondes e Adelheid Koch e da contínua atividade de seus seguidores, até os dias de hoje. Não só ajudou o desenvolvimento de outras sociedades, como passou a ser um criativo pólo irradiador de idéias e de novos centros analíticos. Progressivamente, vários de seus membros tem tido uma importante participação no cenário nacional e internacional da Psicanálise e na vida associativa da ABP, da FEPAL e da IPA.
-                    <p>A IPA, fundada por Freud em março de 1910, durante o Congresso de Nuremberg, tem como objetivo garantir a vigência e o desenvolvimento permanente da Psicanálise como ciência, como tratamento e como profissão. Agrega psicanalistas de 33 países tendo por primeira vez como presidente um brasileiro, empossado em 2005 no Rio de Janeiro, no primeiro Congresso Internacional de Psicanálise realizado no Brasil. O atual presidente é canadense.
-                    <p>A FEBRAPSI – Federação Brasileira de Psicanálise fundada em 6 de maio de 1967 é composta pelas Sociedades, Grupos de Estudos e Núcleos que integram a psicanálise brasileira filiada a IPA, tem como função congregar as organizações componentes promovendo, integrando, difundindo e refletindo a Psicanálise que existe e que é praticada no Brasil. Mantém atividades científicas, administrativas, de relações exteriores, de publicações e de divulgação. Promove em anos alternados o Congresso Brasileiro de Psicanálise e publica a Revista Brasileira de Psicanálise. Patrocina e promove eventos, simpósios e intercâmbio científico em vários estados brasileiros.
-                </span>
+                <div class="contato--content">
+                    <h2 class="contato--title-mobile">Onde estamos</h2>   
+                    <div class="row">
+                        <div class="contato--content--item col-12 col-md-5 d-flex flex-column">
+                            <span>Sede Vila Olímpia</span>
+                            <p>
+                                Av. Dr. Cardoso de Melo, 1450<br>
+                                9º andar - Vila Olímpia<br>
+                                Telefone: 11 2125.3777<br>
+                            </p>
+                            <a href="/teste">Como chegar ></a>
+                        </div>
+                        <div class="contato--content--item col-12 col-md-5 d-flex flex-column justify-content-between">
+                            <span>Sede Rua Sergipe</span>
+                            <p>
+                                Rua Sergipe, 441<br>
+                                Conj. 62 e 51 - Higienópolis<br>
+                                Telefone: 11 3661.9822<br>
+                            </p>
+                            <a href="/teste">Como chegar ></a>
+                        </div>
+                    </div>
+                    <h2 class="contato--title-mobile">E-mails</h2>   
+                    <div class="row">
+                        <div class="contato--content--item mobile col-12 col-md-5 d-flex flex-column justify-content-between">
+                            <div>
+                                <span>Editora</span>
+                                <p class="contato--content--email">editora@sbpsp.org.br</p>
+                            </div>
+                            <div>
+                                <span>Diretoria</span>
+                                <p class="contato--content--email">diretoria@sbpsp.org.br</p>
+                            </div>
+                        </div>
+                        <div class="contato--content--item mobile col-12 col-md-5 d-flex flex-column justify-content-between">
+                            <div>
+                                <span>Secretaria</span>
+                                <p class="contato--content--email">secretaria@sbpsp.org.br</p>
+                            </div>
+                            <div>
+                                <span>Biblioteca</span>
+                                <p class="contato--content--email">biblioteca@sbpsp.org.br</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

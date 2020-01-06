@@ -32,6 +32,12 @@
     }
 }
 
+.background-thumb {
+    @include mobile {
+        background-color: $colorBackgroundThumb;
+    }
+}
+
 .institucional {
     padding-top: 60px;
     @include mobile {
@@ -52,7 +58,10 @@
     }
     &--sidenav {
         background-color: #F4F4F4;
-        max-height: 550px;
+        max-height: 700px;
+        @include mobile {
+            max-height: 760px;
+        }
         ul {
             padding-left: 50px;
         }
@@ -94,6 +103,124 @@
             transition: all 0.3s;
             right: 35px;
             color: $colorBackgroundDefault;
+        }
+    }
+}
+
+
+//Contact Page
+.contato {
+    &--form {
+        @include font-std(18px, #707070, 400, $fontPrimary);
+        padding-top: 50px;
+        padding-right: 20px;
+        @include mobile {
+            padding: 20px;
+        }
+        input, textarea {
+            padding: 25px;
+            border: 1px solid #707070;
+            border-radius: 0;
+            background-color: transparent;
+            &:focus {
+                background-color: transparent;
+            }
+            &::placeholder {
+                font-family: $fontPrimary;
+                color: #808080;
+            }
+        }
+        label {
+            padding-bottom: 10px;
+        }
+        .btn-default {
+            background-color: $colorBackgroundDefault;
+            width: 191.54px;
+            height: 58px;
+            border: none;
+            &:hover {
+                opacity: 0.8;
+            }
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+    &--title {
+        padding-top: 60px;
+        @include font-std(44px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 28px;
+            text-align: center;
+            background-color: $colorBackgroundThumb;
+            padding-top: 35px;
+        }
+    }
+    &--title-mobile {
+        display:none;
+        @include font-std(28px, $colorBackgroundDefault, 900, $fontSecond);
+        margin: 40px 0;
+        @include mobile {
+            display:block;
+        }
+    }
+    &--content {
+        &--item {
+            background-color: $colorBackgroundThumb;
+            margin: 30px;
+            padding: 30px;
+            @include mobile {
+                margin: 0;
+            }
+            &.mobile {
+                @include mobile {
+                    padding: 0 30px;
+                }
+            }
+            span {
+                @include font-std(24px, $colorBackgroundDefault, 900, $fontSecond);
+            }
+            p {
+                @include font-std(16px, #707070, 400, $fontPrimary);
+                line-height: 1.2;
+            }
+            a {
+                @include font-std(16px, #707070, 400, $fontPrimary);
+                text-decoration: underline;
+                transition: none;
+                &:hover {
+                    color: $colorBackgroundDefault;
+                    opacity: 1;
+                }
+            }
+        }
+        &--email {
+            @include mobile {
+                margin-top: 0 !important;
+            }
+        }
+    }
+    &--modal-sucess {
+        display: none;
+        position: absolute;
+        top: 100px;
+        @include mobile {
+            left: 0;
+        }
+        &--content {
+            height: 300px;
+        }
+        i {
+            font-size: 130px;
+            color: $colorBackgroundDefault;
+        }
+        h2 {
+            @include font-std(36px, $colorBackgroundDefault, 400, $fontSecond);
+            padding-top: 25px;
+        }
+        p {
+            @include font-std(20px, #808080, 400, $fontSecond);
+            padding: 0 50px;
         }
     }
 }

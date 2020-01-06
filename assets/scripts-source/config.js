@@ -87,4 +87,16 @@ $( document ).ready(function() {
 	.focusout(function() {
 		$(".icon-arrow-carousel").css("transform","rotate(270deg)");
 	});
+
+	//Contact form
+	$(".contato--form form button").click(function(e){
+		event.preventDefault(e);
+		$(".contato--form form").animate({opacity: '0.', "z-index":'-1'});
+		$(".contato--modal-sucess").css({
+			display:"block",
+			opacity:0
+		});
+		$(".contato--modal-sucess").animate({opacity: '1'});
+	});
+
 });
