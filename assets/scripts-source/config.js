@@ -99,4 +99,8 @@ $( document ).ready(function() {
 		$(".contato--modal-sucess").animate({opacity: '1'});
 	});
 
+	//Localização
+	$(".maps-fancybox").fancybox();
+
+
 });
