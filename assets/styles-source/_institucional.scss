@@ -21,7 +21,7 @@
     }
 }
 
-.webdoor-eventos {
+.webdoor-eventos, .webdoor-cursos{
     display: none;
     @include mobile {
         display: block;
@@ -266,5 +266,66 @@
         margin: 0 0 20px;
         text-align: center;
         background-color: $colorBackgroundDefault;
+    }
+}
+
+.cursos {
+    &--title {
+        @include font-std(52px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 28px;
+        }
+    }
+    &--card-title {
+        @include font-std(30px, $colorBackgroundDefault, 400, $fontSecond);
+    }
+    &--select {
+        height: 50px;
+        width: 220px;
+        select {
+            @include font-std(14px, $colorBlack, 400, $fontPrimary);
+            padding: 15px;
+            border: 1px solid #C4C4C4;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: transparent;
+        }
+        i {
+            font-size: 14px;
+            z-index: -1;
+            position: absolute;
+            transform: rotate(270deg);
+            transition: all 0.3s;
+            right: 35px;
+            color: $colorBackgroundDefault;
+        }
+    }
+    .btn-default {
+        margin: 0 0 20px;
+        text-align: center;
+        background-color: $colorBackgroundDefault;
+    }
+    .card {
+        border-radius: 0;
+        background-color: #f4f4f4;
+        border: none;
+    }
+    &--box-item {
+        @include font-std(12px, #707070, 400, $fontPrimary);
+        padding: 10px 0;
+        i {
+            font-size: 20px;
+            color: $colorBackgroundDefault;
+            padding: 0 10px;
+        }
+    }
+    &--card-rodape {
+        span {
+            @include font-std(16px, $colorBackgroundDefault, bold, $fontSecond);
+        }
+    }
+    hr {
+        width: 95%;
     }
 }

@@ -17,11 +17,11 @@
             <div class="eventos--select d-flex justify-content-center">
                 <div class="col-12 d-flex justify-content-between align-items-center">
                     <i class="icon-arrow-carousel"></i>
-                    <select class="col-12" onchange="location = this.value;">
-                        <option selected>A Sociedade</option>
-                        <option value="/">Corpo Diretivo</option>
-                        <option value="2">Equipe</option>
-                        <option value="3">Contato</option>
+                    <select class="col-12">
+                        <option selected>Tipo de Evento</option>
+                        <option value="">Corpo Diretivo</option>
+                        <option value="">Equipe</option>
+                        <option value="">Contato</option>
                     </select>
                 </div>
             </div>
