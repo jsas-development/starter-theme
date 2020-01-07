@@ -47,17 +47,21 @@
       <div class="header py-3">
         <div class="header--mobile d-flex d-md-none justify-content-between align-items-center px-3">
           <?php if($_SERVER['REQUEST_URI']!="/"):?>
-            <picture>
-                <source srcset="assets/images/logo-mobile-blue.webp" type="image/webp">
-                <source srcset="assets/images/logo-mobile-blue.png" type="image/png"> 
-                <img src="assets/images/logo-mobile-blue.png" alt="Logo Sbpsp">
-            </picture>
+            <a href="/">
+              <picture>
+                  <source srcset="assets/images/logo-mobile-blue.webp" type="image/webp">
+                  <source srcset="assets/images/logo-mobile-blue.png" type="image/png"> 
+                  <img src="assets/images/logo-mobile-blue.png" alt="Logo Sbpsp">
+              </picture>
+            </a>
           <?php else:?>
-            <picture>
-                <source srcset="assets/images/logo-mobile.webp" type="image/webp">
-                <source srcset="assets/images/logo-mobile.png" type="image/png"> 
-                <img src="assets/images/logo-mobile.png" alt="Logo Sbpsp">
-            </picture> 
+            <a href="/">
+              <picture>
+                  <source srcset="assets/images/logo-mobile.webp" type="image/webp">
+                  <source srcset="assets/images/logo-mobile.png" type="image/png"> 
+                  <img src="assets/images/logo-mobile.png" alt="Logo Sbpsp">
+              </picture> 
+            </a>
           <?php endif;?>
           <button class="navbar-toggler navbar-light" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -191,11 +195,13 @@
     <div class="container">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="logo-sbpsp col-md-2">
-          <picture>
-              <source srcset="assets/images/logo-blue.webp" type="image/webp">
-              <source srcset="assets/images/logo-blue.png" type="image/png"> 
-              <img src="assets/images/logo-blue.png" alt="Logo Sbpsp">
-          </picture>
+          <a href="/">
+            <picture>
+                <source srcset="assets/images/logo-blue.webp" type="image/webp">
+                <source srcset="assets/images/logo-blue.png" type="image/png"> 
+                <img src="assets/images/logo-blue.png" alt="Logo Sbpsp">
+            </picture>
+          </a>
         </div>
         <div class="col-md-9">
           <div class="d-flex flex-column">

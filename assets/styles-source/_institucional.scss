@@ -21,6 +21,14 @@
     }
 }
 
+.webdoor-eventos {
+    display: none;
+    @include mobile {
+        display: block;
+        background-image: url("../images/background-eventos.jpg");
+    }
+}
+
 
 
 .webdoor-institucional {
@@ -222,5 +230,41 @@
             @include font-std(20px, #808080, 400, $fontSecond);
             padding: 0 50px;
         }
+    }
+}
+
+.eventos {
+    &--title {
+        @include font-std(52px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 28px;
+        }
+    }
+    &--select {
+        height: 50px;
+        width: 220px;
+        select {
+            @include font-std(14px, $colorBlack, 400, $fontPrimary);
+            padding: 15px;
+            border: 1px solid #C4C4C4;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: transparent;
+        }
+        i {
+            font-size: 14px;
+            z-index: -1;
+            position: absolute;
+            transform: rotate(270deg);
+            transition: all 0.3s;
+            right: 35px;
+            color: $colorBackgroundDefault;
+        }
+    }
+    .btn-default {
+        margin: 0 0 20px;
+        text-align: center;
+        background-color: $colorBackgroundDefault;
     }
 }
