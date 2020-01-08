@@ -18,8 +18,8 @@
         <h1 class="eventos-internas--title">Ciclo Cinema e Psicanálise | Sem Amor</h1>
     </div>
     <div class="container p-5">
-        <div class="row justify-content-between">
-            <div class="col-7 left">
+        <div class="d-flex justify-content-between flex-column-reverse">
+            <div class="col-12 col-md-7 left">
                 <p>
                     Em novembro, o Ciclo de Cinema e Psicanálise do MIS, instituição da Secretaria de Cultura e Economia Criativa do Governo do Estado de São Paulo, inicia o módulo ‘Mal-estar na civilização e infância’. No dia 26, acontece exibição do longa Sem amor (dir. Andrey Zvyagintsev, 2017, Rússia/França/Bélgica/Alemanha, 127’, drama, digital), seguido por bate-papo com Regina Elisabeth Lordello Coimbra e o jornalista Guilherme Genestreti. A diretora de Cultura e Comunidade da SBPSP, Luciana Saddi, mediará a conversa.
                 </p>
@@ -56,7 +56,7 @@
                     Guilherme Genestreti é editor-adjunto de Cultura da Folha e jornalista especializado em cinema. Formado em direito pela USP, cursou também jornalismo na Cásper Líbero e novas narrativas na Universidade da Califórnia em Berkeley.
                 </p>
             </div>
-            <div class="col-4 right px-4 py-3">
+            <div class="col-12 col-md-4 right px-4 py-3">
                 <div class="right--time d-flex flex-column p-4">
                     <div class="py-2">
                         <i class="icon-calendar"></i>

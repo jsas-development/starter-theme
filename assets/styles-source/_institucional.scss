@@ -32,7 +32,7 @@
 .webdoor-eventos-internas {
     background-image: url("../images/eventos-internas.jpg");
     @include mobile {
-        background-image: url("../images/eventos-internas-mobile.jpg");
+        background-image: url("../images/background-eventos.jpg");
     }
 }
 
@@ -341,8 +341,14 @@
 .eventos-internas {
     position: relative;
     bottom: 150px;
+    @include mobile {
+        bottom: 0;
+    }
     &--title {
         @include font-std(44px, $colorBackgroundDefault, bold, $fontSecond);
+        @include mobile {
+            font-size: 27px;
+        }
     }
     &--first-title {
         padding: 50px;
@@ -351,11 +357,20 @@
     &--subtitle {
         @include font-std(39px, $colorBackgroundDefault, bold, $fontSecond);
         padding: 50px 0 30px;
+        @include mobile {
+            font-size: 27px;
+        }
     }
     .left {
+        @include mobile {
+            padding-top: 60px;
+        }
         p {
             @include font-std(20px, #707070, 400, $fontPrimary);
-            line-height: 29px
+            line-height: 29px;
+            @include mobile {
+                font-size: 18px;
+            }
         }
     }
     .right {
@@ -380,6 +395,9 @@
         }
         span {
             @include font-std(18px, #707070, 400, $fontPrimary);
+            @include mobile {
+                font-size: 12px;
+            }
         }
         strong {
             @include font-std(21px, $colorBackgroundDefault, bold, $fontPrimary);
@@ -393,6 +411,9 @@
         font-weight: bold;
         width: 228px;
         height: 70px;
+        @include mobile {
+            width: 100%;
+        }
     }
     .event-type {
         @include font-std(18px, #707070, 400, $fontPrimary);
