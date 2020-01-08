@@ -36,6 +36,13 @@
     }
 }
 
+.webdoor-cursos-internas {
+    background-image: url("../images/webdoor-cursos-interna.jpg");
+    @include mobile {
+        background-image: url("../images/background-eventos.jpg");
+    }
+}
+
 
 
 .webdoor-institucional {

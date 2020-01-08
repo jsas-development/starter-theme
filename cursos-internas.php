@@ -8,52 +8,64 @@
 
 ?>
 
-<section class="webdoor-institucional webdoor-eventos-internas"></section>
+<section class="webdoor-institucional webdoor-cursos-internas"></section>
 
 <section class="eventos-internas">
     <div class="container eventos-internas--first-title">
         <div class="event-type">
-            <span>Tipo de Evento</span>
+            <span>Tipo de Curso</span>
         </div>
-        <h1 class="eventos-internas--title">Ciclo Cinema e Psicanálise | Sem Amor</h1>
+        <h1 class="eventos-internas--title">Curso de Introdução a escuta Psicanalítica</h1>
     </div>
     <div class="container p-5">
         <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
             <div class="col-12 col-md-7 left">
                 <p>
-                    Em novembro, o Ciclo de Cinema e Psicanálise do MIS, instituição da Secretaria de Cultura e Economia Criativa do Governo do Estado de São Paulo, inicia o módulo ‘Mal-estar na civilização e infância’. No dia 26, acontece exibição do longa Sem amor (dir. Andrey Zvyagintsev, 2017, Rússia/França/Bélgica/Alemanha, 127’, drama, digital), seguido por bate-papo com Regina Elisabeth Lordello Coimbra e o jornalista Guilherme Genestreti. A diretora de Cultura e Comunidade da SBPSP, Luciana Saddi, mediará a conversa.
+                    O curso tem como objetivo iniciar o aluno na construção de uma escuta psicanalítica, introduzindo o método psicanalítico a partir da exploração de seus conceitos fundamentais, tanto em relação à prática clínica, quanto na dimensão do pensamento psicanalítico sobre a cultura.
                 </p>
                 <br>
                 <p>
-                    O programa, que acontece mensalmente no Museu, é uma parceria com a Sociedade Brasileira de Psicanálise de São Paulo e apoio da Folha de S.Paulo. A sessão tem entrada gratuita e acontece às 19h no Auditório MIS (172 lugares) - retirada de ingresso com 1h de antecedência na recepção.
-                </p>
-                <div class="eventos-internas--subtitle">
-                    <span>
-                        Sobre o filme
-                    </span>
-                </div>
-                <p>
-                    Sinopse: Boris (Alexey Rozin) e Zhenya (Maryana Spivak) estão se divorciando. Depois de anos juntos, os dois se preparam para suas novas vidas: ele com sua nova namorada, que está grávida, e ela com seu parceiro rico. Com tantas preocupações eles acabam não dando atenção ao filho Alyosha (Matvey Novikov), que acaba desaparecendo misteriosamente.
-                    </p>
-                <br>
-                <p>
-                    No super premiado filme Sem amor, de Andrey Zvyagintsev (2017) acompanhamos um casal em processo de separação. Os afetos violentos, o desprezo explosivo, as palavras sem nenhuma medida e o ódio virulento estão presentes. Sentimentos dessa natureza impregnam a relação do casal com seu único filho. Estranhamente, os mesmos personagens em seus novos relacionamentos são amorosos, ternos e doces. Freud em O mal-estar na civilização (1929) tratou de examinar a felicidade humana em suas variadas facetas. Considerou o amor sexual como protótipo da felicidade, seu ponto culminante. E ninguém duvida do poder da paixão erótica para amansar os corações mais empedernidos. Em sua vigência os amantes se submetem sem pestanejar.
-                    </p>
-                <br>
-                <p>
-                    Classificação: 14 anos.
+                    A Diretoria de atendimento à Comunidade (DAC) da Sociedade Brasileira de Psicanálise de São Paulo (SBPSP) abre as inscrições para o curso em 4/11/2019.
                 </p>
                 <div class="eventos-internas--subtitle">
                     <span>
-                        Sobre os Convidados
+                        Conteúdo Programático
                     </span>
                 </div>
                 <p>
-                    Regina Elisabeth Lordello Coimbra é Psiquiatra, Psicanalista de Criança e Adolescente da SBPSP, Docente do Instituto Durval Marcondes da SBPSP.
+                    1º SEMESTRE
                 </p>
                 <br>
                 <p>
-                    Guilherme Genestreti é editor-adjunto de Cultura da Folha e jornalista especializado em cinema. Formado em direito pela USP, cursou também jornalismo na Cásper Líbero e novas narrativas na Universidade da Califórnia em Berkeley.
+                Módulo 1: O que especifica a escuta psicanalítica<br>
+                Módulo 2: História da escuta psicanalítica
+                </p>
+                <br>
+                <p>
+                    2º e 3 SEMESTRES
+                </p>
+                <br>
+                <p>
+                    Módulo 3: Formas de sofrimento psíquico: uma introdução à psicopatologia psicanalítica
+                </p>
+                <br>
+                <p>
+                    Obs.: este módulo constará de uma aula teórica seguida de uma discussão clínica.
+                </p>
+                <br>
+                <p>
+                    4º SEMESTRE<br>
+                    Módulo 4:  A psicanálise e a cultura
+                </p>
+                <br>
+                <div class="eventos-internas--subtitle">
+                    <span>
+                        Taxa de Inscrição
+                    </span>
+                </div>
+                <p>
+                    Matrícula: R$500,00.<br>
+                    8 parcelas de R$750,00.
                 </p>
             </div>
             <div class="col-12 col-md-4 right px-4 py-3">
