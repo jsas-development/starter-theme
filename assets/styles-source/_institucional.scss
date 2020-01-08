@@ -29,6 +29,13 @@
     }
 }
 
+.webdoor-eventos-internas {
+    background-image: url("../images/eventos-internas.jpg");
+    @include mobile {
+        background-image: url("../images/eventos-internas-mobile.jpg");
+    }
+}
+
 
 
 .webdoor-institucional {
@@ -327,5 +334,68 @@
     }
     hr {
         width: 95%;
+    }
+}
+
+
+.eventos-internas {
+    position: relative;
+    bottom: 150px;
+    &--title {
+        @include font-std(44px, $colorBackgroundDefault, bold, $fontSecond);
+    }
+    &--first-title {
+        padding: 50px;
+        background-color: $colorWhite;
+    }
+    &--subtitle {
+        @include font-std(39px, $colorBackgroundDefault, bold, $fontSecond);
+        padding: 50px 0 30px;
+    }
+    .left {
+        p {
+            @include font-std(20px, #707070, 400, $fontPrimary);
+            line-height: 29px
+        }
+    }
+    .right {
+        background-color: $colorBackgroundThumb;
+        height: 1084px;
+        &--time{
+            i {
+                font-size: 20px;
+                color: $colorBackgroundDefault;
+                padding-right: 5px;
+            }
+        }
+        &--social{
+            i {
+                font-size: 25px;
+                color: $colorBackgroundDefault;
+                padding: 0 20px;
+            }
+            .icon-email {
+                font-size: 20px;
+            }
+        }
+        span {
+            @include font-std(18px, #707070, 400, $fontPrimary);
+        }
+        strong {
+            @include font-std(21px, $colorBackgroundDefault, bold, $fontPrimary);
+        }
+    }
+    .btn-default {
+        margin: 25px auto;
+        padding: 28px 15px;
+        background-color: $colorBackgroundDefault;
+        text-align: center;
+        font-weight: bold;
+        width: 228px;
+        height: 70px;
+    }
+    .event-type {
+        @include font-std(18px, #707070, 400, $fontPrimary);
+        padding: 10px 0;
     }
 }

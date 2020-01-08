@@ -81,12 +81,12 @@ $( document ).ready(function() {
 	});
 
 	//Menu Institucional 
-	$(".institucional--select-change").focusin(function() {
-		$(".icon-arrow-carousel").css("transform","rotate(90deg)");
-	})
-	.focusout(function() {
-		$(".icon-arrow-carousel").css("transform","rotate(270deg)");
-	});
+	// $(".institucional--select-change").focusin(function() {
+	// 	$(".icon-arrow-carousel").css("transform","rotate(90deg)");
+	// })
+	// .focusout(function() {
+	// 	$(".icon-arrow-carousel").css("transform","rotate(270deg)");
+	// });
 
 	//Contact form
 	$(".contato--form form button").click(function(e){
