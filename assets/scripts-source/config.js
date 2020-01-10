@@ -102,5 +102,12 @@ $( document ).ready(function() {
 	//Localização
 	$(".maps-fancybox").fancybox();
 
-
+	//Sidebar Institucional
+	$("#v-pills-tab li").click(function(){
+		$("#v-pills-tab li").removeClass("active");
+		$(this).addClass("active");
+	});
+	$(".sub-items").click(function(){
+		$(".sub-items").removeClass("active");
+	});
 });

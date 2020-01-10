@@ -43,6 +43,12 @@
     }
 }
 
+.webdoor-biblioteca {
+    background-image: url("../images/webdoor-biblioteca.jpg");
+    @include mobile {
+        background-image: url("../images/webdoor-biblioteca.jpg");
+    }
+}
 
 
 .webdoor-institucional {
@@ -93,6 +99,9 @@
     }
     li {
         padding: 20px;
+        border-left: 8px solid transparent;
+        transition: all 0.3s;
+
         &.active {
             border-left: 8px solid $colorBackgroundDefault;
         }
@@ -425,5 +434,41 @@
     .event-type {
         @include font-std(18px, #707070, 400, $fontPrimary);
         padding: 10px 0;
+    }
+}
+
+.biblioteca {
+    &--sidenav {
+        .nav-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            i {
+                font-size: 14px;
+                z-index: 1;
+                transform: rotate(270deg);
+                transition: all 0.3s;
+                right: 35px;
+                color: $colorBackgroundDefault;
+                -webkit-transition: -webkit-transform .4s ease-in-out;
+                -ms-transition: -ms-transform .4s ease-in-out;
+                transition: transform .4s ease-in-out;
+            }
+            &[aria-expanded="true"] {
+                i{
+                    transform:rotate(90deg);
+                    -ms-transform:rotate(90deg);
+                    -webkit-transform:rotate(90deg);
+                }
+            }
+            &.active {
+                font-weight: bold;
+            }
+        }
+        #v-pills-tab {
+            ul {
+                padding-left: 0 !important;
+            }
+        }
     }
 }

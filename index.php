@@ -61,7 +61,7 @@
             <h2 class="next-events--title d-block d-md-none">Eventos</h2>
             <div class="col-md-6">
               <div class="card mb-4">
-                  <a href="">
+                  <a href="/eventos-internas.php">
                       <picture>
                           <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                           <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -84,7 +84,7 @@
             
             <div class="col-md-6">
               <div class="card mb-4">
-                  <a href="">
+                  <a href="/eventos-internas.php">
                       <picture>
                           <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                           <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -107,7 +107,7 @@
 
             <div class="col-md-6">
               <div class="card mb-4">
-                  <a href="">
+                  <a href="/eventos-internas.php">
                       <picture>
                           <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                           <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -130,7 +130,7 @@
 
             <div class="col-md-6 d-none d-md-block">
               <div class="card mb-4">
-                  <a href="">
+                  <a href="/eventos-internas.php">
                       <picture>
                           <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                           <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -150,7 +150,7 @@
                   </a>
               </div>
             </div>
-            <a class="btn-default" href="/">
+            <a class="btn-default" href="/eventos.php">
                 Ver todos
             </a>
         </div>
@@ -168,7 +168,7 @@
                             <span class="next-course--date">
                                 20/11 a 10/12
                             </span>
-                            <a href="/" class="next-course--title">
+                            <a href="/cursos-internas.php" class="next-course--title">
                                 Psicanálise da vincularidade de família e casal
                             </a>
                         </div>
@@ -177,7 +177,7 @@
                             <span class="next-course--date">
                                 20/11 a 10/12
                             </span>
-                            <a href="/" class="next-course--title">
+                            <a href="/cursos-internas.php" class="next-course--title">
                                 Psicanálise da vincularidade de família e casal
                             </a>
                         </div>
@@ -186,7 +186,7 @@
                             <span class="next-course--date">
                                 20/11 a 10/12
                             </span>
-                            <a href="/" class="next-course--title">
+                            <a href="/cursos-internas.php" class="next-course--title">
                                 Psicanálise da vincularidade de família e casal
                             </a>
                         </div>
@@ -195,11 +195,11 @@
                             <span class="next-course--date">
                                 20/11 a 10/12
                             </span>
-                            <a href="/" class="next-course--title">
+                            <a href="/cursos-internas.php" class="next-course--title">
                                 Psicanálise da vincularidade de família e casal
                             </a>
                         </div>
-                        <a class="btn-default" href="/">
+                        <a class="btn-default" href="/cursos.php">
                             Ver todos
                         </a>
                     </div>
@@ -282,7 +282,7 @@
                 </a>
             </div>
         </div>
-        <a href="/" class="btn-default">Ver todos</a>
+        <a href="/biblioteca.php" class="btn-default">Ver todos</a>
     </div>
 </section>
 

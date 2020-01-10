@@ -111,25 +111,25 @@
                       </a>
                       <ul id="submenu-1" class="collapse">
                         <li>
-                          <a class="sub-items" href="#">
+                          <a class="sub-items" href="/sobre.php">
                             <span>A Sociedade</span>
                             <i class="icon-arrow-down"></i>
                           </a>
                         </li>
                         <li>
-                          <a class="sub-items" href="#">
+                          <a class="sub-items" href="/sobre.php">
                             <span>Corpo Diretivo</span>
                             <i class="icon-arrow-down"></i>
                           </a>
                         </li>
                         <li>
-                          <a class="sub-items" href="#">
+                          <a class="sub-items" href="/sobre.php">
                             <span>Equipe</span>
                             <i class="icon-arrow-down"></i>
                           </a>
                         </li>
                         <li>
-                          <a class="sub-items" href="#">
+                          <a class="sub-items" href="/sobre.php">
                             <span>Contato</span>
                             <i class="icon-arrow-down"></i>
                           </a>
@@ -137,7 +137,7 @@
                       </ul>
                   </li>
                   <li class="first-layer">
-                    <a class="items" href="#">
+                    <a class="items" href="/formacao.php">
                       <span>FORMAÇÃO PSICANALÍTICA</span>
                       <i class="icon-arrow-down"></i>
                     </a>
@@ -155,7 +155,7 @@
                     </a>
                   </li>
                   <li class="first-layer">
-                    <a class="items" href="#">
+                    <a class="items" href="/central-de-atendimento.php">
                       <span>ATENDIMENTO À COMUNIDADE</span>
                       <i class="icon-arrow-down"></i>
                     </a>
@@ -210,20 +210,21 @@
                 <a class="btn-formacao" href="#">FORMAÇÃO</a>
                 <a class="btn-atividades" href="#">ATIVIDADES</a>
                 <a class="btn-estudos-e-pesquisas" href="#">ESTUDOS E PESQUISAS</a>
-                <a class="btn-atendimento-comunidade" href="#">ATENDIMENTO À COMUNIDADE</a>
+                <a class="btn-atendimento-comunidade" href="/central-de-atendimento.php">ATENDIMENTO À COMUNIDADE</a>
                 <a class="btn-blog" href="#">BLOG</a>
             </nav>
             <nav id="btn-quem-somos" class="subnav py-2">
-                <a href="#">A Sociedade</a>
-                <a href="#">Corpo Diretivo</a>
-                <a href="#">Equipe</a>
-                <a href="#">Contato</a>
+                <a href="/sobre.php">A Sociedade</a>
+                <a href="/sobre.php">Corpo Diretivo</a>
+                <a href="/sobre.php">Equipe</a>
+                <a href="/sobre.php">Contato</a>
             </nav>
             <nav id="btn-formacao" class="subnav py-2">
-                <a href="#">teste 1</a>
-                <a href="#">teste 2</a>
-                <a href="#">Teste 3</a>
-                <a href="#">Contato</a>
+                <a href="/formacao.php">O Instituto</a>
+                <a href="/formacao.php">Formação</a>
+                <a href="/formacao.php">Associação</a>
+                <a href="/formacao.php">Palavras da Diretoria</a>
+                <a href="/formacao.php">Processo Seletivo</a>
             </nav>
           </div>
         </div>
