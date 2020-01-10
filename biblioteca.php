@@ -88,16 +88,16 @@
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <i class="icon-arrow-carousel"></i>
                 <select class="col-12 institucional--select-change" onchange="location = this.value;">
-                    <option selected>A Sociedade</option>
-                    <option value="/">Corpo Diretivo</option>
-                    <option value="2">Equipe</option>
-                    <option value="3">Contato</option>
+                    <option class="option" value="/biblioteca.php?biblioteca" selected>Biblioteca</option>
+                    <option class="option" value="/biblioteca.php?divisao">Div. de Documentos</option>
+                    <option class="option" value="/biblioteca.php?posts">Publicações</option>
                 </select>
             </div>
         </div>
         <!--Fim Versão Mobile -->
 
         <div class="tab-content" id="v-pills-tabContent">
+
             <div id="v-pills-sobre" role="tabpanel" aria-labelledby="v-pills-sobre-tab" class="col-12 tab-pane fade show active">
                 <div class="institucional--container px-5">
                     <h1 class="institucional--title">Sobre a Biblioteca</h1>
@@ -109,6 +109,7 @@
                     </p>
                 </div>
             </div>
+
             <div id="v-pills-regulamento" role="tabpanel" aria-labelledby="v-pills-regulamento-tab" class="col-12 tab-pane fade">
                 <div class="institucional--container px-5">
                     <h1 class="institucional--title">teste</h1>
@@ -120,6 +121,7 @@
                     </p>
                 </div>
             </div>
+
             <div id="v-pills-documentacao" role="tabpanel" aria-labelledby="v-pills-documentacao-tab" class="col-12 tab-pane fade">
                 <div class="institucional--container px-5">
                     <h1 class="institucional--title">Divisão de Documentação e Pesquisa da História da Psicanalise</h1>
@@ -137,84 +139,186 @@
                     </p>
                 </div>
             </div>
+
             <div id="v-pills-posts" role="tabpanel" aria-labelledby="v-pills-documentacao-tab" class="col-12 tab-pane fade">
-                <div class="institucional--container px-5">
-                    <h1 class="institucional--title">Publicações</h1>
-                    <span class="institucional--text">
-                        <p>Confira nossas últimas publicações.</p>
-                    </span>
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="/">
-                                <picture>
-                                    <source srcset="assets/images/latest-post1.webp" type="image/webp">
-                                    <source srcset="assets/images/latest-post1.png" type="image/png"> 
-                                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post1.png" alt="Logo Sbpsp">
-                                    <div class="latest-posts--img-opacity d-none d-md-flex">
-                                        <span class="caption">
-                                            <b>Interpretações da Cultura</b><br>
-                                            Edição 78
-                                        </span>
-                                        <a href="/" class="link">leia mais</a>
-                                    </div>
-                                </picture>
-                            </a>
+                <div class="posts">
+                    <div class="institucional--container p-0 px-md-5">
+                        <h1 class="institucional--title">Publicações</h1>
+                        <span class="institucional--text d-none d-md-block">
+                            <p>Confira nossas últimas publicações.</p>
+                        </span>
+                        <span class="institucional--text d-block d-md-none">
+                            <p>A Revista ide é uma publicação semestral da Sociedade Brasileira de Psicanálise de São Paulo, desde 1975, e tem como linha editorial o diálogo entre psicanálise e cultura.
+                            <p>Contém uma significativa coletânea de trabalhos, entrevistas e resenhas que incluem psicanalistas e pensadores das diversas áreas do conhecimento - filósofos, literatos, antropólogos, artistas plásticos, sociólogos etc. -, nacionais e estrangeiros.
+                            <p>A ide aceita trabalhos, independentemente de o autor ser filiado à instituição que a publica.
+                        </span>
+                        <div class="d-flex flex-column justify-content-between align-items-center">
+                            <a class="btn-default" href="">Revista IDE</a>
+                            <a class="btn-default" href="">Jornal de Psicanálise</a>
+                            <a class="btn-default" href="">Revista da Psicanálise</a>
                         </div>
-                        <div class="col-md-4">
-                            <a href="/">
-                                <picture>
-                                    <source srcset="assets/images/latest-post2.webp" type="image/webp">
-                                    <source srcset="assets/images/latest-post2.png" type="image/png"> 
-                                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post2.png" alt="Logo Sbpsp">
-                                    <div class="latest-posts--img-opacity d-none d-md-flex">
-                                        <span class="caption">
-                                            <b>Interpretações da Cultura</b><br>
-                                            Edição 78
-                                        </span>
-                                        <a href="/" class="link">leia mais</a>
-                                    </div>
-                                </picture>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="/">
-                                <picture>
-                                    <source srcset="assets/images/latest-post3.webp" type="image/webp">
-                                    <source srcset="assets/images/latest-post3.png" type="image/png"> 
-                                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post3.png" alt="Logo Sbpsp">
-                                    <div class="latest-posts--img-opacity d-none d-md-flex">
-                                        <span class="caption">
-                                            <b>Interpretações da Cultura</b><br>
-                                            Edição 78
-                                        </span>
-                                        <a href="/" class="link">leia mais</a>
-                                    </div>
-                                </picture>  
-                            </a>
-                        </div>
-                        <div class="col-md-4 d-none d-md-block">
-                            <a href="/">
-                                <picture>
-                                    <source srcset="assets/images/latest-post4.webp" type="image/webp">
-                                    <source srcset="assets/images/latest-post4.png" type="image/png"> 
-                                    <img class="card-img-top latest-posts--img" src="assets/images/latest-post4.png" alt="Logo Sbpsp">
-                                    <div class="latest-posts--img-opacity d-none d-md-flex">
-                                        <span class="caption">
-                                            <b>Interpretações da Cultura</b><br>
-                                            Edição 78
-                                        </span>
-                                        <a href="/" class="link">leia mais</a>
-                                    </div>
-                                </picture>
-                            </a>
+                        <div class="posts--content container">
+                            <div class="posts--background"></div>
+                            <div class="row mx-3">
+                                <div class="col-md-4 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post1.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post1.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post1.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post2.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post2.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post2.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post3.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post3.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post3.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>  
+                                    </a>
+                                </div>
+                                <div class="col-md-4 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post4.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post4.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post4.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                    </div>
-                    </p>
                 </div>
             </div>
+
+            <div id="v-pills-revista" role="tabpanel" aria-labelledby="v-pills-revista-tab" class="col-12 tab-pane fade">
+                <div class="posts">
+                    <div class="institucional--container px-5">
+                        <h1 class="institucional--title">Revista IDE</h1>
+                        <span class="institucional--text">
+                            <p>A Revista ide é uma publicação semestral da Sociedade Brasileira de Psicanálise de São Paulo, desde 1975, e tem como linha editorial o diálogo entre psicanálise e cultura.
+
+                            <p>Contém uma significativa coletânea de trabalhos, entrevistas e resenhas que incluem psicanalistas e pensadores das diversas áreas do conhecimento - filósofos, literatos, antropólogos, artistas plásticos, sociólogos etc. -, nacionais e estrangeiros.
+
+                            <p>A ide aceita trabalhos, independentemente de o autor ser filiado à instituição que a publica..
+                        </span>
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <a class="btn-default" href="">CORPO DIRETIVO</a>
+                            <a class="btn-default" href="">NORMAS DE PUBLICAÇÃO</a>
+                            <a class="btn-default" href="">ASSINATURA/COMPRAR</a>
+                        </div>
+                        <div class="posts--revistas text-center">
+                        <div class="row mx-3">
+                                <div class="col-md-3 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post1.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post1.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post1.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post2.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post2.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post2.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post3.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post3.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post3.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>  
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <a href="/">
+                                        <picture>
+                                            <source srcset="assets/images/latest-post4.webp" type="image/webp">
+                                            <source srcset="assets/images/latest-post4.png" type="image/png"> 
+                                            <img class="card-img-top latest-posts--img" src="assets/images/latest-post4.png" alt="Logo Sbpsp">
+                                            <div class="latest-posts--img-opacity d-none d-md-flex">
+                                                <span class="caption">
+                                                    <b>Interpretações da Cultura</b><br>
+                                                    Edição 78
+                                                </span>
+                                                <a href="/" class="link">leia mais</a>
+                                            </div>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="btn-default" href="">VER EDIÇÕES ANTERIORES</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>

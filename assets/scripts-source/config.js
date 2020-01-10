@@ -110,4 +110,40 @@ $( document ).ready(function() {
 	$(".sub-items").click(function(){
 		$(".sub-items").removeClass("active");
 	});
+
+	//Select Mobile Estudos e Pesquisas
+	
+	// Verificar url para tabs
+	var url = window.location.href;
+	url = url.split("?");
+	url = url[1];
+  
+	$("option").click(function(){
+		alert("ok");
+	});
+	
+	switch (url) {
+
+	  case "divisao":
+		$("#v-pills-documentacao-tab").click();
+		$("option").removeAttr("selected");
+		$(".option:eq(1)").attr("selected", "selected");
+		break;
+
+	  case "posts":
+		$("#v-pills-posts-tab").click();
+		$("option").removeAttr("selected");
+		$(".option:eq(2)").attr("selected", "selected");
+		break;
+
+	case "biblioteca":
+		$("#v-pills-biblioteca-tab").click();
+		$("option").removeAttr("selected");
+		$(".option:eq(0)").attr("selected", "selected");
+		break;
+		
+	  default:
+		break;
+	}
+
 });

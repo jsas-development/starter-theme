@@ -29,7 +29,7 @@
         <div class="row py-5">
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -51,7 +51,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -73,7 +73,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -119,7 +119,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -141,7 +141,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card mb-4">
-                    <a href="">
+                    <a href="/eventos-internas">
                         <picture>
                             <source srcset="assets/images/thumbnail-example.webp" type="image/webp">
                             <source srcset="assets/images/thumbnail-example.jpg" type="image/jpg"> 
@@ -163,7 +163,7 @@
             </div>
         </div>
         <div class="row justify-content-center py-4">
-            <a class="btn-default" href="/">
+            <a class="btn-default" href="#">
                 VER MAIS
             </a>
         </div>

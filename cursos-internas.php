@@ -104,10 +104,10 @@
                         <strong>Compartilhe</strong>
                     </div>
                     <div class="d-flex flex-row justify-content-center align-items-center py-2">
-                        <a href="">
+                        <a href="https://www.facebook.com/sbpsp/">
                             <i class="icon-facebook"></i>
                         </a>
-                        <a href="">
+                        <a href="https://twitter.com/sbpsp">
                             <i class="icon-twitter"></i>
                         </a>
                         <a href="">

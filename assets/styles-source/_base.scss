@@ -34,6 +34,7 @@ html {
 body {
     line-height: 1;
     @include font-std(16px, $colorBlack, 300, $fontPrimary);
+    overflow-x: hidden;
 }
 ol, ul {
     list-style: none;

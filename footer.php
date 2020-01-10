@@ -50,10 +50,10 @@
           </ul>
           <div class="d-none d-md-flex">
             <ul class="d-flex flex-row flex-md-column px-2 px-md-1 ">
-              <li><a class="" href="">
+              <li><a class="" href="https://www.facebook.com/sbpsp/">
                 <i class="icon-facebook"></i>
               </a></li>
-              <li><a class="" href="">
+              <li><a class="" href="https://twitter.com/sbpsp">
                 <i class="icon-twitter"></i>
               </a></li>
               <li><a class="" href="">
@@ -75,10 +75,10 @@
           
           <div class="footer-links--social-mobile d-flex d-md-none align-items-center justify-content-center">
             <ul class="d-flex flex-row">
-              <li><a class="" href="">
+              <li><a class="" href="https://www.facebook.com/sbpsp/">
                 <i class="icon-facebook px-3"></i>
               </a></li>
-              <li><a class="" href="">
+              <li><a class="" href="https://twitter.com/sbpsp">
                 <i class="icon-twitter px-3"></i>
               </a></li>
               <li><a class="" href="">
