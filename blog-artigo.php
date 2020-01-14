@@ -64,7 +64,7 @@
                         Categoria: <u>Podcast</u>
                     </span>
 
-                    <div class="d-flex">
+                    <div class="d-flex py-3">
                         <a href="">ARTE</a>
                         <a href="">CINEMA</a>
                         <a href="">POLÍTICA</a>
