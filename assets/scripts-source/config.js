@@ -56,6 +56,7 @@ $( document ).ready(function() {
 	$(".close-search").click(function(){
 		$(".search").slideUp("fast");
 	});
+	//End
 
 	//Submenu
 	$(".nav a").click(function(){
@@ -71,6 +72,7 @@ $( document ).ready(function() {
 			$(".nav").css("border-bottom","none");
 		}
 	});
+	//End
 
 	//Menu Mobile
 	$(".navbar-toggler").click(function(){
@@ -79,19 +81,12 @@ $( document ).ready(function() {
 	$(".menu-mobile div .icon-close-search").click(function(){
 		$(".menu-mobile").slideUp("fast");
 	});
-
-	//Menu Institucional 
-	// $(".institucional--select-change").focusin(function() {
-	// 	$(".icon-arrow-carousel").css("transform","rotate(90deg)");
-	// })
-	// .focusout(function() {
-	// 	$(".icon-arrow-carousel").css("transform","rotate(270deg)");
-	// });
+	//End
 
 	//Contact form
 	$(".contato--form form button").click(function(e){
 		event.preventDefault(e);
-		$(".contato--form form").animate({opacity: '0.', "z-index":'-1'});
+		$(".contato--form form").animate({opacity: '0', "z-index":'-1'});
 		$(".contato--modal-sucess").css({
 			display:"block",
 			opacity:0
@@ -101,6 +96,7 @@ $( document ).ready(function() {
 
 	//Localização
 	$(".maps-fancybox").fancybox();
+	//End
 
 	//Sidebar Institucional
 	$("#v-pills-tab li").click(function(){
@@ -110,9 +106,9 @@ $( document ).ready(function() {
 	$(".sub-items").click(function(){
 		$(".sub-items").removeClass("active");
 	});
+	//End
 
 	//Select Mobile Estudos e Pesquisas
-	
 	// Verificar url para tabs
 	var url = window.location.href;
 	url = url.split("?");
@@ -123,27 +119,40 @@ $( document ).ready(function() {
 	});
 	
 	switch (url) {
-
-	  case "divisao":
-		$("#v-pills-documentacao-tab").click();
-		$("option").removeAttr("selected");
-		$(".option:eq(1)").attr("selected", "selected");
+		case "divisao":
+			$("#v-pills-documentacao-tab").click();
+			$("option").removeAttr("selected");
+			$(".option:eq(1)").attr("selected", "selected");
 		break;
 
-	  case "posts":
-		$("#v-pills-posts-tab").click();
-		$("option").removeAttr("selected");
-		$(".option:eq(2)").attr("selected", "selected");
+		case "posts":
+			$("#v-pills-posts-tab").click();
+			$("option").removeAttr("selected");
+			$(".option:eq(2)").attr("selected", "selected");
 		break;
 
-	case "biblioteca":
-		$("#v-pills-biblioteca-tab").click();
-		$("option").removeAttr("selected");
-		$(".option:eq(0)").attr("selected", "selected");
+		case "biblioteca":
+			$("#v-pills-biblioteca-tab").click();
+			$("option").removeAttr("selected");
+			$(".option:eq(0)").attr("selected", "selected");
 		break;
-		
-	  default:
+	  	default:
 		break;
 	}
+	//End
+
+	//Blog - Cards Hover
+	$( ".page-blog--card-hover" ).hover(
+		function() {
+		  $( this ).animate({
+			opacity: 1
+		  },300);
+		}, function() {
+			$( this ).animate({
+				opacity: 0
+			},300);
+		}
+	);
+	//End
 
 });

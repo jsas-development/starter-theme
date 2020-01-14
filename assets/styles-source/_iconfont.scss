@@ -5,11 +5,11 @@ iconfont Webfont
 @font-face {
  font-family: "iconfont";
 
- src: url('../fonts/iconfont.eot?1578496099585');
- src: url('../fonts/iconfont.eot?#iefix-1578496099585') format('embedded-opentype'),
-  url('../fonts/iconfont.woff2?1578496099585') format('woff2'),
-  url('../fonts/iconfont.woff?1578496099585') format('woff'),
-  url('../fonts/iconfont.ttf?1578496099585') format('truetype');
+ src: url('../fonts/iconfont.eot?1579009973035');
+ src: url('../fonts/iconfont.eot?#iefix-1579009973035') format('embedded-opentype'),
+  url('../fonts/iconfont.woff2?1579009973035') format('woff2'),
+  url('../fonts/iconfont.woff?1579009973035') format('woff'),
+  url('../fonts/iconfont.ttf?1579009973035') format('truetype');
  font-weight: normal;
  font-style: normal;
 }
@@ -43,70 +43,78 @@ Glyphs list
  content: '\ea02';
 }
 
-.icon-calendar:before {
+.icon-arrow-next-pagination:before {
  content: '\ea03';
 }
 
-.icon-close-menu:before {
+.icon-arrow-prev-pagination:before {
  content: '\ea04';
 }
 
-.icon-close-search:before {
+.icon-calendar:before {
  content: '\ea05';
 }
 
-.icon-email:before {
+.icon-close-menu:before {
  content: '\ea06';
 }
 
-.icon-facebook-mobile:before {
+.icon-close-search:before {
  content: '\ea07';
 }
 
-.icon-facebook:before {
+.icon-email:before {
  content: '\ea08';
 }
 
-.icon-instagram-mobile:before {
+.icon-facebook-mobile:before {
  content: '\ea09';
 }
 
-.icon-location:before {
+.icon-facebook:before {
  content: '\ea0a';
 }
 
-.icon-play:before {
+.icon-instagram-mobile:before {
  content: '\ea0b';
 }
 
-.icon-search:before {
+.icon-location:before {
  content: '\ea0c';
 }
 
-.icon-success:before {
+.icon-play:before {
  content: '\ea0d';
 }
 
-.icon-time:before {
+.icon-search:before {
  content: '\ea0e';
 }
 
-.icon-twitter-mobile:before {
+.icon-success:before {
  content: '\ea0f';
 }
 
-.icon-twitter:before {
+.icon-time:before {
  content: '\ea10';
 }
 
-.icon-user:before {
+.icon-twitter-mobile:before {
  content: '\ea11';
 }
 
-.icon-whatsapp:before {
+.icon-twitter:before {
  content: '\ea12';
 }
 
-.icon-youtube:before {
+.icon-user:before {
  content: '\ea13';
+}
+
+.icon-whatsapp:before {
+ content: '\ea14';
+}
+
+.icon-youtube:before {
+ content: '\ea15';
 }
