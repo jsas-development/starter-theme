@@ -753,7 +753,6 @@
         @include mobile {
             font-size: 28px;
             padding: 0;
-
         }
     }
 }
@@ -781,6 +780,10 @@
     &--title {
         @include font-std(45px, $colorBackgroundDefault, bold, $fontSecond);
         padding-bottom: 50px;
+        @include mobile {
+            font-size: 28px;
+            padding: 0;
+        }
     }
     &--card-main {
         display: flex;
@@ -792,20 +795,33 @@
         @include font-std(16px, #707070, 400, $fontPrimary);
         span {
             padding-left: 15px;
+            @include mobile {
+                padding: 25px;
+            }
         }
         h2 {
             @include font-std(36px, $colorBackgroundDefault, bold, $fontSecond);
             padding-left: 15px;
+            @include mobile {
+                padding: 25px;
+                font-size: 28px;
+            }
         }
         a {
             @include font-std(18px, $colorBackgroundDefault, 200, $fontPrimary);
             text-decoration: underline;
             padding: 0 20px;
+            @include mobile {
+                padding: 25px;
+            }
         }
         p {
             font-size: 18px;
             padding-left: 15px;
             line-height: 1.4;
+            @include mobile {
+                padding: 25px;
+            }
         }
     }
 }
@@ -824,5 +840,8 @@
         height: unset;
         padding: 25px 37px;
         background-color: $colorBackgroundDefault;
+        @include mobile {
+            padding: 17px;
+        }
     }
 }

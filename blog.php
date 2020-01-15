@@ -22,7 +22,7 @@
             <div class="col-12 col-md-7 page-blog--card-main">
                 <span>Por Marielle Kellermann Barbosa</span>
                 <h2>Bacurau - Brasil em<br>Pontência</h2>
-                <a href="/">Leia mais</a>
+                <a href="/blog-artigo.php">Leia mais</a>
             </div>
         </div>
         <hr>

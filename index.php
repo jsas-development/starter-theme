@@ -46,7 +46,7 @@
 <!-- Links para versão Mobile -->
 <section id="links-mobile" class="links-mobile d-block d-md-none">
     <h2 class="links-mobile--title">Encontre psicanalistas<br>membros e membros filiados</h2>
-    <a class="btn-default" href="/">Ver todos</a>
+    <a class="btn-default" href="/busca.php">Ver todos</a>
     <h2 class="links-mobile--title">Formação psicanalítica<br>na SBPSP</h2>
     <a class="btn-default" href="/">Ver todos</a>
 </section>
