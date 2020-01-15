@@ -11,15 +11,15 @@
 <section class="page-blog">
     <div class="container">
         <h1 class="page-blog--title">Bem vindo ao Blog da Psicanálise</h1>
-        <div class="row my-5">
-            <div class="col-5 p-0">
+        <div class="d-flex flex-column flex-md-row my-5">
+            <div class="col-12 col-md-5 p-0">
                 <picture class="d-flex">
                     <source srcset="assets/images/bacurau.webp" type="image/webp">
                     <source srcset="assets/images/bacurau.jpg" type="image/jpg"> 
                     <img class="card-img-top"   src="assets/images/bacurau.jpg" alt="Logo Sbpsp">
                 </picture>
             </div>
-            <div class="col-7 page-blog--card-main">
+            <div class="col-12 col-md-7 page-blog--card-main">
                 <span>Por Marielle Kellermann Barbosa</span>
                 <h2>Bacurau - Brasil em<br>Pontência</h2>
                 <a href="/">Leia mais</a>
@@ -27,7 +27,7 @@
         </div>
         <hr>
         <div class="d-flex flex-wrap justify my-5">
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/caveira.webp" type="image/webp">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/analise.webp" type="image/webp">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/grupo-de-pessoas.webp" type="image/webp">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/homem-andando.webp" type="image/webp">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/caveira.webp" type="image/webp">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 my-3">
+            <div class="col-12 col-md-6 my-3">
                 <div class="position-relative">
                     <picture class="d-flex">
                         <source srcset="assets/images/analise.webp" type="image/webp">
@@ -161,7 +161,7 @@
     <div class="page-blog--categorias mt-5">
         <div class="container py-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <h3 class="page-blog--categorias--title">Explore por Categoria</h3>
                     <div class="d-flex page-blog--categorias--left flex-column pb-5">
                         <a href="">NOTÍCIAS</a>
@@ -171,7 +171,7 @@
                         <a href="">VÍDEOS</a>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <h3 class="page-blog--categorias--title">Explore por tópicos</h3>
                     <div class="d-flex page-blog--categorias--right flex-wrap pb-5">
                         <a href="">NOTÍCIAS</a>
