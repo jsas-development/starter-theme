@@ -771,3 +771,20 @@
         }
     }
 }
+
+.error404 {
+    &--number{
+        @include font-std(180px, $colorBackgroundDefault, 400, $fontSecond);
+    }
+    &--title{
+        @include font-std(32px, $colorBlack, 400, $fontPrimary);
+        
+    }
+    &--link{
+        @include font-std(16px, $colorWhite, 400, $fontPrimary);
+        width: unset;
+        height: unset;
+        padding: 25px 37px;
+        background-color: $colorBackgroundDefault;
+    }
+}
