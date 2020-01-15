@@ -688,7 +688,11 @@
     &--title {
         @include font-std(45px, $colorBackgroundDefault, bold, $fontSecond);
         text-align: left;
-        margin: 15px 0 30px;   
+        margin: 15px 0 30px; 
+        @include mobile {
+            font-size: 28px;
+            margin: 15px 0 20px;
+        }  
     }
     &--subtitle {
         @include font-std(20px, #707070, 300, $fontPrimary);
@@ -716,6 +720,9 @@
             margin: 10px;
             border-radius: 30px;
             text-decoration: none;
+            @include mobile {
+                width: fit-content;
+            }
         }
     }
     &--video {
@@ -743,6 +750,11 @@
     &--title {
         @include font-std(45px, $colorBackgroundDefault, bold, $fontSecond);
         padding: 40px 0;
+        @include mobile {
+            font-size: 28px;
+            padding: 0;
+
+        }
     }
 }
 

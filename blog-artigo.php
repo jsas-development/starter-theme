@@ -23,7 +23,7 @@
                     <img class="card-img-top" src="assets/images/bacurau-artigo.jpg" alt="Bacurau">
                 </picture>
             </div>
-            <div class="col-12 p-5">
+            <div class="col-12 p-4 p-md-5">
                 <div class="artigo--text">
                     <p>Bacurau, longa metragem, dirigido pelos diretores pernambucanos Kleber Mendonça Filho e Juliano Dornelles, estreou no fim de agosto de 2019, nos cinemas do Brasil, depois de ter ganho o Prêmio do Júri no Festival de Cannes, e também eleito como o melhor filme do Festival de Cinema de Munique, na Alemanha, e do 23º Festival de Cinema de Lima, no Peru.
 
@@ -64,7 +64,7 @@
                         Categoria: <u>Podcast</u>
                     </span>
 
-                    <div class="d-flex py-3">
+                    <div class="d-flex flex-column flex-md-row py-3">
                         <a href="">ARTE</a>
                         <a href="">CINEMA</a>
                         <a href="">POLÍTICA</a>
@@ -80,7 +80,7 @@
         <div class="col-12 text-center">
             <h2 class="artigos-relacionados--title">Artigos relacionados</h2>
         </div>
-        <div class="row py-5 mb-5">
+        <div class="row py-5 mb-5 d-none d-md-flex">
             <div class="col-4">
                 <a href="">
                     <picture>
@@ -107,6 +107,59 @@
                         <img class="card-img-top" src="assets/images/artigo-relacionado-3.jpg" alt="Bacurau">
                     </picture>
                 </a>
+            </div>
+        </div>
+        <div class="row py-5 mb-5 d-flex d-md-none">
+            <div class="col-12 col-md-6 my-3">
+                <div class="position-relative">
+                    <picture class="d-flex">
+                        <source srcset="assets/images/caveira.webp" type="image/webp">
+                        <source srcset="assets/images/caveira.jpg" type="image/jpg"> 
+                        <img class="card-img-top"   src="assets/images/caveira.jpg" alt="Logo Sbpsp">
+                    </picture>
+                    <div class="page-blog--card-hover">
+                        <span>10.11.19 | Por Heloisa Helena Sitrângulo Ditolvo </span>
+                        <h2>Conversando com Shakespeare<br>e Freud</h2>
+                        <div class="d-flex flex-row flex-wrap">
+                            <a href="">CULTURA</a>
+                            <a href="">PSICANÁLISE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="position-relative">
+                    <picture class="d-flex">
+                        <source srcset="assets/images/caveira.webp" type="image/webp">
+                        <source srcset="assets/images/caveira.jpg" type="image/jpg"> 
+                        <img class="card-img-top"   src="assets/images/caveira.jpg" alt="Logo Sbpsp">
+                    </picture>
+                    <div class="page-blog--card-hover">
+                        <span>10.11.19 | Por Heloisa Helena Sitrângulo Ditolvo </span>
+                        <h2>Conversando com Shakespeare<br>e Freud</h2>
+                        <div class="d-flex flex-row flex-wrap">
+                            <a href="">CULTURA</a>
+                            <a href="">PSICANÁLISE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 my-3">
+                <div class="position-relative">
+                    <picture class="d-flex">
+                        <source srcset="assets/images/caveira.webp" type="image/webp">
+                        <source srcset="assets/images/caveira.jpg" type="image/jpg"> 
+                        <img class="card-img-top"   src="assets/images/caveira.jpg" alt="Logo Sbpsp">
+                    </picture>
+                    <div class="page-blog--card-hover">
+                        <span>10.11.19 | Por Heloisa Helena Sitrângulo Ditolvo </span>
+                        <h2>Conversando com Shakespeare<br>e Freud</h2>
+                        <div class="d-flex flex-row flex-wrap">
+                            <a href="">CULTURA</a>
+                            <a href="">PSICANÁLISE</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
