@@ -28,9 +28,9 @@
                     <p>Bacurau, longa metragem, dirigido pelos diretores pernambucanos Kleber Mendonça Filho e Juliano Dornelles, estreou no fim de agosto de 2019, nos cinemas do Brasil, depois de ter ganho o Prêmio do Júri no Festival de Cannes, e também eleito como o melhor filme do Festival de Cinema de Munique, na Alemanha, e do 23º Festival de Cinema de Lima, no Peru.
                         </p>
                     <div class="artigo--audio py-5">
-                        <audio controls>
-                            <source src="horse.ogg" type="audio/ogg">
-                            <source src="horse.mp3" type="audio/mpeg">
+                        <audio id="audio" controls>
+                            <source src="assets/audio/teste.mp3" type="audio/ogg">
+                            <source src="assets/audio/teste.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                     </div>

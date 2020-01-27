@@ -112,6 +112,8 @@
   
   
   
-  <script defer async src="/assets/scripts/scripts.min.js"></script>    
+  <script defer async src="/assets/scripts/scripts.min.js"></script> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelement-and-player.min.js"></script>   
   </body>
 </html>
