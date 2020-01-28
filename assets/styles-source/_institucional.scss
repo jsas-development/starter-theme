@@ -845,3 +845,95 @@
         }
     }
 }
+
+.inscricao {
+
+    &--title {
+        @include font-std(44px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 28px;
+        }
+    }
+
+    &--subtitle {
+        @include font-std(30px, $colorBackgroundDefault, 400, $fontSecond);
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+
+    &--text {
+        @include font-std(20px, #707070, 400, $fontPrimary);
+        padding: 11px 0 41px;
+        line-height: 1.2;
+        @include mobile {
+            font-size: 18px;
+        }
+    }
+
+    .form-check {
+        @include font-std(20px, #707070, bold, $fontPrimary);
+        background-color: $colorBackgroundThumb;
+        span {
+            @include font-std(16px, #707070, 400, $fontPrimary);
+        }
+        &.active {
+            background-color: #707070;
+            color: $colorWhite;
+            span {
+                color:$colorWhite;
+            }
+        }
+    }
+    .form-check-label {
+        padding: 20px 0 20px 50px;
+        width: 100%;
+    }
+
+    &--form {
+        @include font-std(18px, #707070, 400, $fontPrimary);
+        padding-right: 20px;
+        @include mobile {
+            padding: 20px;
+        }
+        input, textarea, select {
+            padding: 25px;
+            border: 1px solid #707070;
+            border-radius: 0;
+            background-color: transparent;
+            &:focus {
+                background-color: transparent;
+            }
+            &::placeholder {
+                font-family: $fontPrimary;
+                color: #808080;
+            }
+        }
+        .form-group {
+            padding: 12px;
+        }
+        select {
+            padding: 8px;
+            height: 52px;
+        }
+        label {
+            padding-bottom: 10px;
+        }
+        .btn-default {
+            background-color: $colorBackgroundDefault;
+            margin: 24px 0 100px;
+            width: 191.54px;
+            height: 58px;
+            border: none;
+            &:hover {
+                opacity: 0.8;
+            }
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+    hr {
+        margin: 30px 0;
+    }
+}
