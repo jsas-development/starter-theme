@@ -156,20 +156,65 @@ $( document ).ready(function() {
 	//End
 
 
-	//Contact form
-	// $(".contato--form form button").click(function(e){
+	//Formulário de Inscrição Erro
+	// $(".btn-inscricao").click(function(e){
 	// 	event.preventDefault(e);
-	// 	$(".contato--form form").animate({opacity: '0', "z-index":'-1'});
-	// 	$(".contato--modal-sucess").css({
+	// 	$(".inscricao--form form, .inscricao--text").animate({opacity: '0', "z-index":'-1'});
+	// 	$(".inscricao--modal-error").css({
 	// 		display:"block",
 	// 		opacity:0
 	// 	});
-	// 	$(".contato--modal-sucess").animate({opacity: '1'});
+	// 	$(".inscricao--modal-error").animate({opacity: '1'});
 	// });
+
+	//Formulário de Inscrição Sucesso
+	$(".btn-inscricao").click(function(e){
+		event.preventDefault(e);
+		$(".inscricao--form form, .inscricao--text").animate({opacity: '0', "z-index":'-1'});
+		$(".inscricao--title").val("Dados de Pagamento");
+		$(".inscricao--form form, .inscricao--text").css({
+			display:"none"
+		});
+		$(".inscricao--modal-success").css({
+			display:"contents",
+			opacity:0
+		});
+		$(".inscricao--modal-success").animate({opacity: '1'});
+	});
 
 	$(".value-check").click(function(){ 
 		$('.value-check').removeClass("active");
 		$(this).addClass("active");
+	});
+
+	//Formulário de texto
+	$(".btn-pagamento").click(function(e){
+		event.preventDefault(e);
+		$(".inscricao--modal-success, .inscricao--text").animate({opacity: '0', "z-index":'-1'});
+		$(".inscricao--title").val("Instruções: Pagamento por boleto");
+		$(".inscricao--modal-success, .inscricao--text").css({
+			display:"none"
+		});
+		$(".inscricao--modal-text-1").css({
+			display:"contents",
+			opacity:0
+		});
+		$(".inscricao--modal-text-1").animate({opacity: '1'});
+	});
+
+	//Formulário de texto
+	$(".btn-texto1").click(function(e){
+		event.preventDefault(e);
+		$(".inscricao--modal-text-1, .inscricao--text").animate({opacity: '0', "z-index":'-1'});
+		$(".inscricao--title").val("Obrigado");
+		$(".inscricao--modal-text-1, .inscricao--text").css({
+			display:"none"
+		});
+		$(".inscricao--modal-text-2").css({
+			display:"contents",
+			opacity:0
+		});
+		$(".inscricao--modal-text-2").animate({opacity: '1'});
 	});
 
 

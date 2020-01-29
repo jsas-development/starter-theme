@@ -82,7 +82,7 @@
                         <i class="icon-location"></i>
                         <span>Auditório MIS</span>
                     </div>
-                    <a class="btn-default" href="">
+                    <a class="btn-default" href="/inscricao.php">
                         INSCREVA-SE
                     </a>
                 </div>

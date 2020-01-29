@@ -849,7 +849,7 @@
 .inscricao {
 
     &--title {
-        @include font-std(44px, $colorBackgroundDefault, 400, $fontSecond);
+        @include font-std(44px, $colorBackgroundDefault, 900, $fontSecond);
         @include mobile {
             font-size: 28px;
         }
@@ -933,7 +933,139 @@
             }
         }
     }
+
     hr {
         margin: 30px 0;
+    }
+
+    &--card {
+        background-color: $colorBackgroundThumb;
+        border: none;
+    }
+
+    &--card-subtitle {
+        @include font-std(16px, #707070, 400, $fontPrimary);
+        padding: 10px 0;
+    }
+    &--card-title {
+        @include font-std(22px, $colorBackgroundDefault, 400, $fontSecond);
+        padding: 10px 0;
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+    &--card-item {
+        @include font-std(12px, #707070, 400, $fontPrimary);
+        padding: 7px 5px;
+        i {
+            font-size: 20px;
+            color: $colorBackgroundDefault;
+            padding: 0 7px;
+        }
+    }
+    &--modal-error {
+        display: none;
+        position: absolute;
+        top: 100px;
+        @include mobile {
+            left: 0;
+        }
+        &--content {
+            height: auto;
+        }
+        i {
+            font-size: 130px;
+            color: $colorRed;
+        }
+        h2 {
+            @include font-std(36px, $colorBackgroundDefault, 400, $fontSecond);
+            padding-top: 25px;
+        }
+        p {
+            @include font-std(20px, $colorRed, 400, $fontSecond);
+            padding: 50px;
+        }
+    }
+    &--modal-success {
+        display: none;
+        position: absolute;
+        top: 100px;
+        &--content {
+            height: auto;
+        }
+        i {
+            font-size: 60px;
+            color: $colorBlack;
+        }
+        h2 {
+            @include font-std(36px, $colorBackgroundDefault, 400, $fontSecond);
+            padding-top: 25px;
+        }
+        p {
+            @include font-std(20px, #707070, 400, $fontSecond);
+            padding: 50px 0;
+        }
+
+        .form-pag {
+            .form-check-label {
+                padding: 50px 25px 50px 50px;
+            }
+            span {
+                @include font-std(26px, #707070, 600, $fontPrimary);
+                padding-left: 7px;
+            }
+            p {
+                @include font-std(14px, #707070, 400, $fontSecond);
+                padding: 10px;
+            }
+        }
+    }
+    &--modal-text-1 {
+        display: none;
+        position: absolute;
+        top: 100px;
+        &--content {
+            height: auto;
+        }
+        i {
+            font-size: 130px;
+            color: $colorRed;
+        }
+        h2 {
+            @include font-std(30px, $colorBackgroundDefault, 900, $fontSecond);
+            padding-top: 25px;
+            @include mobile {
+                font-size: 24px;
+            }
+        }
+        p {
+            @include font-std(20px, $colorRed, 400, $fontSecond);
+            padding: 50px;
+        }
+        ul {
+            padding: 30px;
+        }
+        li {
+            list-style: outside;
+            padding: 10px 0;
+        }
+    }
+    &--modal-text-2 {
+        display: none;
+        position: absolute;
+        top: 100px;
+        i {
+            font-size: 130px;
+            color: $colorRed;
+        }
+        h2 {
+            @include font-std(30px, $colorBackgroundDefault, 900, $fontSecond);
+            padding-top: 25px;
+        }
+        p {
+            @include font-std(20px, #707070, 400, $fontSecond);
+            padding: 50px 0;
+            line-height: 1.3;
+        }
     }
 }
